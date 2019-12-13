@@ -39,6 +39,7 @@ public class Functions {
                 client.setTreasury(treasuryPassGenerator(client.getDesk()));
                 if (client.getTreasury() == 1) {                                // Needs to pass in the Treasury
                     client.setTreasuryTime(treasuryTimeGenerator());
+                    client.setRepeat(repeatGenerator(client));                  // Needs to go back to queue 2
                 }
 
             }
@@ -162,6 +163,28 @@ public class Functions {
             return (generator(0, 60));
         else
             return (generator(60, 120));
+    }
+
+    // Repeat
+    public static int repeatGenerator(Client client){
+        if(client.getDesk() == 'A') {
+            if (Math.random() <= 0.30)
+                return 1;
+            else
+                return 0;
+        }
+        else if(client.getDesk() == 'B'){
+            if(Math.random() <= 0.20)
+                return 1;
+            else
+                return 0;
+        }
+        else{
+            if(Math.random() <= 0.40)
+                return 1;
+            else
+                return 0;
+        }
     }
 
     // Generator of ]min, max]

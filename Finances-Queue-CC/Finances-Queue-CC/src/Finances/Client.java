@@ -9,6 +9,7 @@ public class Client {
     int treasury;
     int t_treasury;
     int priority;
+    int repeat;
 
     public Client(){
 
@@ -44,6 +45,9 @@ public class Client {
     public void setPriority(int priority){
         this.priority = priority;
     }
+    public void setRepeat(int repeat){
+        this.repeat = repeat;
+    }
 
     // Gets
     public int getArriveTime(){
@@ -70,11 +74,14 @@ public class Client {
     public int getPriority(){
         return priority;
     }
+    public int getRepeat(){
+        return repeat;
+    }
 
     // ToString
     public String toString(){
         String s = "Arrive Time: " + t_arrive + ", Sorting Time: " + t_sorting + ", Direct Treasury: " + direct_treasury + ", Priority: " + priority + ", Desk: " + desk + ", Desk Time:" + t_desk + ", Treasury: " + treasury + "" +
-                ", Treasury Time: " + t_treasury + "\n";
+                ", Treasury Time: " + t_treasury + ", Repeat: " + repeat + "\n";
         return s;
     }
 

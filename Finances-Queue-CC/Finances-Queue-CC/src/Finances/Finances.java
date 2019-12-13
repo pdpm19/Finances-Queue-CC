@@ -61,10 +61,14 @@ public class Finances extends Functions {
             */
             // Client goes to the next phase
             if (sorting.getBusyTime() == clock) {
-                if (sorting.getClient().getPriority() == 1)
+                if (sorting.getClient().getPriority() == 1 && sorting.getClient().getDirectTreasury() != 1)
                     p_queue_2.add(sorting.getClient());
-                else
+                else if(sorting.getClient().getPriority() == 0 && sorting.getClient().getDirectTreasury() != 1)
                     g_queue_2.add(sorting.getClient());
+                else if(sorting.getClient().getPriority() == 1 && sorting.getClient().getDirectTreasury() == 1)
+                    p_queue_3.add(sorting.getClient());
+                else
+                    g_queue_3.add(sorting.getClient());
 
                 // There is someone in 1 of the queues
                 if(!p_queue_1.isEmpty()){
@@ -119,7 +123,9 @@ public class Finances extends Functions {
 
         }
 
-        System.out.println("Queue P: " + p_queue_2);
-        System.out.println("Queue G: " + g_queue_2);
+        System.out.println("Queue 2 P: " + p_queue_2);
+        System.out.println("Queue 2 G: " + g_queue_2);
+        System.out.println("Queue 3 P: " + p_queue_3);
+        System.out.println("Queue 3 G: " + g_queue_3);
     }
 }
