@@ -6,23 +6,15 @@ public class Functions {
 
     // Min
     public static int min(int a, int b, int c, int d, int e, int f, int g, int h) {
-        if (a <= b && a <= c && a <= d && a <= e && a <= f && a <= g && a <= h)
-            return a;
-        if (b <= a && b <= c && b <= d && d <= e && b <= f && b <= g && b <= h)
-            return b;
-        if (c <= a && c <= b && c <= d && c <= e && c <= f && c <= g && c <= h)
-            return c;
-        if (d <= a && d <= b && d <= c && d <= e && d <= f && d <= g && d <= h)
-            return d;
-        if (e <= a && e <= b && e <= c && e <= d && e <= f && e <= g && e <= h)
-            return e;
-        if (f <= a && f <= b && f <= c && f <= d && f <= e && f <= g && f <= h)
-            return f;
-        if (g <= a && g <= b && g <= c && g <= d && g <= e && g <= f && g <= h)
-            return g;
-        if (h <= a && h <= b && h <= c && h <= d && h <= e && h <= f && h <= g)
-            return h;
-        return -1;
+        ArrayList<Integer> lista = new ArrayList<>();
+        lista.add(a);lista.add(b);lista.add(c);lista.add(d);lista.add(e);lista.add(f);lista.add(g);lista.add(h);
+        int min = lista.get(0);
+        for (int i = 0; i < lista.size(); i++) {
+            if(lista.get(i) < min)
+                min = lista.get(i);
+        }
+
+        return min;
     }
 
     // Client's data generator
@@ -44,6 +36,7 @@ public class Functions {
 
             }
             else{
+                client.setTreasury(1);
                 client.setTreasuryTime(treasuryTimeGenerator());
             }
             e.add(client);
