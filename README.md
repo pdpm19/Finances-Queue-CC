@@ -1,5 +1,5 @@
 # Finances-Queue-CC
-A small Java project to simulate queues
+A small Java project to simulate queues for Scientific Computing
 
 ## Main Ideia:
 
@@ -37,8 +37,8 @@ A small Java project to simulate queues
 - [x] Generate the clients queue
 - [x] Order the clients queue by reach time
 - [x] Making of Sorting
-- [ ] Making of As
-- [ ] Making of Bs
-- [ ] Making of C
+- [x] Making of As
+- [x] Making of Bs
+- [x] Making of C
 - [ ] Making of Treasury
 - [ ] Get the Statical Variable
