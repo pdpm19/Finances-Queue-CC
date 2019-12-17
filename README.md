@@ -1,4 +1,4 @@
-# Finances-Queue-CC
+﻿# Finances-Queue-CC
 A small Java project to simulate queues for Scientific Computing
 
 ## Main Ideia:
@@ -40,5 +40,6 @@ A small Java project to simulate queues for Scientific Computing
 - [x] Making of As
 - [x] Making of Bs
 - [x] Making of C
+- [ ] Fix the bad management of clients in queue_2
 - [ ] Making of Treasury
 - [ ] Get the Statical Variable
