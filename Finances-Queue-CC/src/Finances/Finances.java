@@ -108,7 +108,7 @@ public class Finances extends Functions {
                 nextArrive = clients.get(0).getArriveTime();
 
             /*
-                A DESK PHASE
+                DESK PHASE
              */
             // A1
             // Client exits the A1
@@ -384,6 +384,48 @@ public class Finances extends Functions {
                     }
                 }
             }
+            /*
+                TREASURY PHASE
+             */
+            // Client exits 
+            if (treasury.getBusyTime() == clock){
+                treasury.setState(0);
+                treasury.setBusyTime(10000000);
+                if(treasury.getClient().getReturn() == 1){      // É aquele valor final do cliente, se retorna ou não (não sei se afunção  assim)
+                    // faz clone do cliente da tesouraria para a r_queue_2
+                    Client c = new Client();
+                    
+                    r_queue_2.add()
+                }
+                else{
+                    System.out.println("Client exits the system");
+                    tte += (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() + treasury.getClient().getTreasuryTime()));
+                    System.out.println(tte);
+                }
+            }
+            // It's idle
+            if (treasury.getState() == 0){
+                if(!p_queue_3.isEmpty()){
+                    treasury.setState(1);
+                    treasury.setBusyTime(clock + p_queue_3.get(0).getTreasuryTime());
+                    treasury.setClient(p_queue_3.get(0));
+                    p_queue_3.remove(0);
+                }
+                else if(!r_queue_3.isEmpty()){
+                    treasury.setState(1);
+                    treasury.setBusyTime(clock + r_queue_3.get(0).getTreasuryTime());
+                    treasury.setClient(r_queue_3.get(0));
+                    r_queue_3.remove(0);
+                }
+                else if(!p_queue_3.isEmpty()){
+                    treasury.setState(1);
+                    treasury.setBusyTime(clock + p_queue_3.get(0).getTreasuryTime());
+                    treasury.setClient(p_queue_3.get(0));
+                    p_queue_3.remove(0);
+                }
+            
+            }
+            
             // Clock
             System.out.println("1: " + nextArrive + " 2: " + sorting.getBusyTime() + " 3:" + a1.getBusyTime() + " 4:" + a2.getBusyTime() + " 5:" + b1.getBusyTime() + " 6:" + b2.getBusyTime() + " 7:" + c.getBusyTime() + " 8:" + treasury.getBusyTime());
             clock = min(nextArrive, sorting.getBusyTime(), a1.getBusyTime(), a2.getBusyTime(), b1.getBusyTime(), b2.getBusyTime(), c.getBusyTime(), treasury.getBusyTime());
