@@ -18,8 +18,7 @@ A small Java project to simulate queues for Scientific Computing
 ### Queues
 - raw_clients
 - clients (phase 1)
-- queue_1_p (phase 1)
-- queue_1_g (phase 1)
+- queue_1 (phase 1)
 - queue_2_p (phase 2)
 - queue_2_g (phase 2)
 - queue_2_r (phase 2)
