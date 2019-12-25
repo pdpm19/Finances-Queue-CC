@@ -33,10 +33,12 @@ public class Finances extends Functions {
         Desk c = new Desk();
         Desk treasury = new Desk();
 
+
+
         // Generate the number of clients, [120-150]
         do {
             n_clients = (int) (Math.random() * 1000);
-        } while (n_clients < 2 || n_clients > 5);
+        } while (n_clients < 120 || n_clients > 150);
 
         // Generate the clients data
         clientGenerator(raw_clients, n_clients);
@@ -49,25 +51,33 @@ public class Finances extends Functions {
             }
             aux += 1;
         }
-
         System.out.println(clients);
+
         int nextArrive = clients.get(0).getArriveTime();
+
 
         // Functional Finances
         while (clock < 28800 && clock >= 0) {
+
             /*
                 SORTING PHASE
             */
             // Client goes to the next phase
+            System.out.println("clock:"+clock);
+
             if (sorting.getBusyTime() == clock) {
                 if (sorting.getClient().getPriority() == 1 && sorting.getClient().getDirectTreasury() != 1)
                     p_queue_2.add(sorting.getClient());
+
                 else if (sorting.getClient().getPriority() == 0 && sorting.getClient().getDirectTreasury() != 1)
                     g_queue_2.add(sorting.getClient());
+
                 else if (sorting.getClient().getPriority() == 1 && sorting.getClient().getDirectTreasury() == 1)
                     p_queue_3.add(sorting.getClient());
+
                 else
                     g_queue_3.add(sorting.getClient());
+
 
                 // Check if there is someone in the first queue
                 if (!queue_1.isEmpty()) {
@@ -90,14 +100,8 @@ public class Finances extends Functions {
                     sorting.setClient(clients.get(0));
                     clients.remove(0);
                 } else {
-                    if (clients.get(0).getPriority() == 1) {
                         queue_1.add(clients.get(0));
                         clients.remove(0);
-                    } else {
-                        queue_1.add(clients.get(0));
-                        clients.remove(0);
-                    }
-
                 }
 
             }
@@ -108,24 +112,26 @@ public class Finances extends Functions {
                 nextArrive = clients.get(0).getArriveTime();
 
             /*
-                A DESK PHASE
+                DESK PHASE
              */
             // A1
             // Client exits the A1
             if (a1.getBusyTime() == clock) {
                 a1.setState(0);
                 a1.setBusyTime(10000000);
-                if (a1.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
 
+                if (a1.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
                     if (a1.getClient().getPriority() == 1){
                         p_queue_3.add(a1.getClient());}
-                    else if (a2.getClient().getPriority() == 0){
+
+                    else if (a1.getClient().getPriority() == 0){
                         g_queue_3.add(a1.getClient());}
+
                     else{
                         r_queue_3.add(a1.getClient());}
 
-                } else {                                            // Clients exists the system
-                    System.out.println("Client exists the system");
+                } else {                                            // Clients exits the system
+                    System.out.println("Client exits the system" + a1.getClient());
                     tte += (clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime()));
                     System.out.println(tte);
                 }
@@ -171,8 +177,7 @@ public class Finances extends Functions {
                 a2.setState(0);
                 a2.setBusyTime(10000000);
 
-                if (a2.getClient().getTreasury() == 1) {
-                    // Client needs to pass through Treasury
+                if (a2.getClient().getTreasury() == 1) {            // Client needs to pass through Treasury
 
                     if (a2.getClient().getPriority() == 1){
                         p_queue_3.add(a2.getClient());}
@@ -181,8 +186,8 @@ public class Finances extends Functions {
                     else{
                         r_queue_3.add(a2.getClient());}
 
-                } else {                                            // Clients exists the system
-                    System.out.println("Client exists the system");
+                } else {                                            // Clients exits the system
+                    System.out.println("Client exits the system"+ a2.getClient());
                     tte += (clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime()));
                     System.out.println(tte);
                 }
@@ -224,8 +229,7 @@ public class Finances extends Functions {
             // B1
             // Client exits the B1
             if (b1.getBusyTime() == clock) {
-                b1.setState(0);
-                b1.setBusyTime(10000000);
+
                 if (b1.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
 
                     if (b1.getClient().getPriority() == 1)
@@ -234,11 +238,13 @@ public class Finances extends Functions {
                         g_queue_3.add(b1.getClient());}
                     else{
                         r_queue_3.add(b1.getClient());}
-                } else {                                            // Clients exists the system
-                    System.out.println("Client exists the system");
+                } else {                                            // Clients exits the system
+                    System.out.println("Client exits the system" + b1.getClient());
                     tte += (clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime()));
                     System.out.println(tte);
                 }
+                b1.setState(0);
+                b1.setBusyTime(10000000);
             }
             // B1 is IDLE
             if (b1.getState() == 0) {
@@ -289,8 +295,8 @@ public class Finances extends Functions {
                         } else {
                             r_queue_3.add(b2.getClient());
                         }
-                    } else {                                            // Clients exists the system
-                        System.out.println("Client exists the system");
+                    } else {                                            // Clients exits the system
+                        System.out.println("Client exits the system"+ b2.getClient());
                         tte += (clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime()));
                         System.out.println(tte);
                     }
@@ -344,8 +350,8 @@ public class Finances extends Functions {
                         g_queue_3.add(c.getClient());}
                     else{
                         r_queue_3.add(c.getClient());}
-                } else {                                            // Clients exists the system
-                    System.out.println("Client exits the system");
+                } else {                                            // Clients exits the system
+                    System.out.println("Client exits the system"+ c.getClient());
                     tte += (clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime()));
                     System.out.println(tte);
                 }
@@ -384,21 +390,69 @@ public class Finances extends Functions {
                     }
                 }
             }
+
+            /*
+                TREASURY PHASE
+             */
+            // Client exits
+           // System.out.println("tesouraria p3:" + p_queue_3);
+           // System.out.println("tesouraria g3:" + g_queue_3);
+
+            if (treasury.getBusyTime() == clock){
+
+                if(treasury.getClient().getRepeat() == 1){      // if client returns to desk A,B or C after treasury
+                    // clone of the client to r_queue_2
+                    Client y = treasury.getClient().clone();
+                    y.setRepeat(0);
+                    y.setTreasury(0);
+                   r_queue_2.add(y);
+                }
+                else{
+                    System.out.println("Client exits the system");    //client exits the system
+                    tte += (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() + treasury.getClient().getTreasuryTime()));
+                    System.out.println(tte);
+                }
+
+                treasury.setState(0);
+                treasury.setBusyTime(10000000);
+            }
+
+            // It's idle
+            if (treasury.getState() == 0){
+                if(!p_queue_3.isEmpty()){
+                    treasury.setState(1);
+                    treasury.setBusyTime(clock + p_queue_3.get(0).getTreasuryTime());
+                    treasury.setClient(p_queue_3.get(0));
+                    p_queue_3.remove(0);
+                }
+                else if(!r_queue_3.isEmpty()){
+                    treasury.setState(1);
+                    treasury.setBusyTime(clock + r_queue_3.get(0).getTreasuryTime());
+                    treasury.setClient(r_queue_3.get(0));
+                    r_queue_3.remove(0);
+                }
+                else if(!g_queue_3.isEmpty()){
+                    treasury.setState(1);
+                    treasury.setBusyTime(clock + g_queue_3.get(0).getTreasuryTime());
+                    treasury.setClient(g_queue_3.get(0));
+                    g_queue_3.remove(0);
+                }
+            }
+            
             // Clock
             System.out.println("1: " + nextArrive + " 2: " + sorting.getBusyTime() + " 3:" + a1.getBusyTime() + " 4:" + a2.getBusyTime() + " 5:" + b1.getBusyTime() + " 6:" + b2.getBusyTime() + " 7:" + c.getBusyTime() + " 8:" + treasury.getBusyTime());
             clock = min(nextArrive, sorting.getBusyTime(), a1.getBusyTime(), a2.getBusyTime(), b1.getBusyTime(), b2.getBusyTime(), c.getBusyTime(), treasury.getBusyTime());
-            System.out.println(clock);
-            //Thread.sleep(2000);
+            System.out.println();            //Thread.sleep(2000);
 
         }
         System.out.println("Desks");
         System.out.println("Queue 2 P: " + p_queue_2);
         System.out.println("Queue 2 G: " + g_queue_2);
-        System.out.println("RAW 1:" + r_queue_2);
-        System.out.println("Treasury");
+        System.out.println("RAW 2: " + r_queue_2);
+        System.out.println("Treasury: ");
         System.out.println("Queue 3 P: " + p_queue_3);
         System.out.println("Queue 3 G: " + g_queue_3);
-        System.out.println("RAW 2:" + r_queue_3);
+        System.out.println("RAW 3: " + r_queue_3);
         System.out.println("TTE: " + tte);
     }
 }

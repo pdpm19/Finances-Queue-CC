@@ -14,11 +14,27 @@ public class Client {
     public Client(){
 
     }
-    public Client(Client c,int t_arrive, int t_sorting, int priority){
+
+    public Client(int t_arrive, int t_sorting, int priority, int direct_treasury, int t_desk, int treasury, int t_treasury, int repeat, char desk ){
+        this.t_arrive = t_arrive;
+        this.t_sorting = t_sorting;
+        this.priority = priority;
+        this.direct_treasury = direct_treasury;
+        this.t_desk = t_desk;
+        this.treasury = treasury;
+        this.t_treasury = t_treasury;
+        this.repeat = repeat;
+        this.desk = desk;
+
+    }
+
+ /*   public Client (Client c,int t_arrive, int t_sorting, int priority){
         c.setArriveTime(t_arrive);
         c.setSortingTime(t_sorting);
         c.setPriority(priority);
     }
+    */
+
 
     // Sets
     public void setArriveTime(int t_arrive){
@@ -78,14 +94,17 @@ public class Client {
         return repeat;
     }
 
+    public Client clone(){
+        Client e = new Client(this.t_arrive, this.t_sorting, this.priority, this.direct_treasury, this.t_desk, this.treasury, this.t_treasury, this.repeat, this.desk);
+        return e;
+    }
+
     // ToString
     public String toString(){
         String s = "Arrive Time: " + t_arrive + ", Sorting Time: " + t_sorting + ", Direct Treasury: " + direct_treasury + ", Priority: " + priority + ", Desk: " + desk + ", Desk Time:" + t_desk + ", Treasury: " + treasury + "" +
                 ", Treasury Time: " + t_treasury + ", Repeat: " + repeat + "\n";
         return s;
     }
-
-    // Clone function
 
 
 }
