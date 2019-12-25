@@ -11,7 +11,7 @@ public class Finances extends Functions {
 
     // Main function
     public static void main(String[] args) throws InterruptedException {
-        int clock = 0, tme = 0, tte = 0, n_clients = 0, aux = 0;
+        int clock = 0, tme_q1 = 0, tme_q2 = 0, tme_q3 = 0, tte = 0, n_clients = 0, aux = 0;
 
         // Clients and Queues
         ArrayList<Client> raw_clients = new ArrayList<>();          // Clients in raw mode
@@ -131,9 +131,13 @@ public class Finances extends Functions {
                         r_queue_3.add(a1.getClient());}
 
                 } else {                                            // Clients exits the system
-                    System.out.println("Client exits the system" + a1.getClient());
-                    tte += (clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime()));
+                    System.out.println("Client exits the system " + a1.getClient());
+                    tte += (clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime())+a1.getClient().getTreasuryTime());
                     System.out.println(tte);
+               //     tme_q1 += (clock - (a1.getClient().getArriveTime()+a1.getClient().getSortingTime()));
+                //    System.out.println(tme_q1);
+                //    tme_q2 += (clock-(a1.getClient().getSortingTime()+a1.getClient().getDeskTime()));
+                //    System.out.println(tme_q2);
                 }
             }
             // A1 is IDLE
@@ -187,9 +191,13 @@ public class Finances extends Functions {
                         r_queue_3.add(a2.getClient());}
 
                 } else {                                            // Clients exits the system
-                    System.out.println("Client exits the system"+ a2.getClient());
-                    tte += (clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime()));
+                    System.out.println("Client exits the system "+ a2.getClient());
+                    tte += (clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime()+a2.getClient().getTreasuryTime()));
                     System.out.println(tte);
+                 //   tme_q1 += (clock - (a2.getClient().getArriveTime()+a2.getClient().getSortingTime()));
+                  //  System.out.println(tme_q1);
+                  //  tme_q2 += (clock-(a2.getClient().getSortingTime()+a2.getClient().getDeskTime()));
+                 //   System.out.println(tme_q2);
                 }
             }
             // A2 is IDLE
@@ -239,9 +247,13 @@ public class Finances extends Functions {
                     else{
                         r_queue_3.add(b1.getClient());}
                 } else {                                            // Clients exits the system
-                    System.out.println("Client exits the system" + b1.getClient());
-                    tte += (clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime()));
+                    System.out.println("Client exits the system " + b1.getClient());
+                    tte += (clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime()+b1.getClient().getTreasuryTime()));
                     System.out.println(tte);
+                //    tme_q1 += (clock - (b1.getClient().getArriveTime()+b1.getClient().getSortingTime()));
+                 //   System.out.println(tme_q1);
+                 //   tme_q2 += (clock-(b1.getClient().getSortingTime()+b1.getClient().getDeskTime()));
+                 //   System.out.println(tme_q2);
                 }
                 b1.setState(0);
                 b1.setBusyTime(10000000);
@@ -296,9 +308,13 @@ public class Finances extends Functions {
                             r_queue_3.add(b2.getClient());
                         }
                     } else {                                            // Clients exits the system
-                        System.out.println("Client exits the system"+ b2.getClient());
-                        tte += (clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime()));
+                        System.out.println("Client exits the system "+ b2.getClient());
+                        tte += (clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime()+b2.getClient().getTreasuryTime()));
                         System.out.println(tte);
+                      //  tme_q1 += (clock - (b2.getClient().getArriveTime()+b2.getClient().getSortingTime()));
+                     //   System.out.println(tme_q1);
+                     //   tme_q2 += (clock-(b2.getClient().getSortingTime()+b2.getClient().getDeskTime()));
+                     //   System.out.println(tme_q2);
                     }
 
             }
@@ -351,9 +367,13 @@ public class Finances extends Functions {
                     else{
                         r_queue_3.add(c.getClient());}
                 } else {                                            // Clients exits the system
-                    System.out.println("Client exits the system"+ c.getClient());
-                    tte += (clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime()));
+                    System.out.println("Client exits the system "+ c.getClient());
+                    tte += (clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime()+c.getClient().getTreasuryTime()));
                     System.out.println(tte);
+                   // tme_q1 += (clock - (c.getClient().getArriveTime()+c.getClient().getSortingTime()));
+                   // System.out.println(tme_q1);
+                   // tme_q2 += (clock-(c.getClient().getSortingTime()+c.getClient().getDeskTime()));
+                   // System.out.println(tme_q2);
                 }
             }
             // C is IDLE
@@ -408,9 +428,18 @@ public class Finances extends Functions {
                    r_queue_2.add(y);
                 }
                 else{
-                    System.out.println("Client exits the system");    //client exits the system
+                    System.out.println("Client exits the system " + treasury.getClient());    //client exits the system
+                    //tte
                     tte += (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() + treasury.getClient().getTreasuryTime()));
                     System.out.println(tte);
+
+                 //   tme_q1 += (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime()));
+                 //   System.out.println(tme_q1);
+                 //   tme_q2 += (clock - (treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime()));
+                 //   System.out.println(tme_q2);
+                 //   tme_q3 += (clock - (treasury.getClient().getDeskTime() + treasury.getClient().getTreasuryTime()));
+                 //   System.out.println(tme_q3);
+
                 }
 
                 treasury.setState(0);
@@ -454,5 +483,10 @@ public class Finances extends Functions {
         System.out.println("Queue 3 G: " + g_queue_3);
         System.out.println("RAW 3: " + r_queue_3);
         System.out.println("TTE: " + tte);
+        System.out.println("Nr of clients: " + n_clients);
+      //  System.out.println("TME Q1: " + tme_q1/n_clients);
+      //  System.out.println("TME Q2: " + tme_q2/n_clients);
+      //  System.out.println("TME Q3: " + tme_q3/n_clients);
+        System.out.println("TME: " +tte/n_clients);
     }
 }
