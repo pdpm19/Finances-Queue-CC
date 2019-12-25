@@ -487,6 +487,6 @@ public class Finances extends Functions {
       //  System.out.println("TME Q1: " + tme_q1/n_clients);
       //  System.out.println("TME Q2: " + tme_q2/n_clients);
       //  System.out.println("TME Q3: " + tme_q3/n_clients);
-        System.out.println("TME: " +tte/n_clients);
+        System.out.println("TME: " +tte/n_clients); 
     }
 }
