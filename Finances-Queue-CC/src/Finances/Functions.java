@@ -190,14 +190,14 @@ public class Functions {
     }
 
     //minimum value of tte
-    public static int MinTTE (int min, int aux_tte_min) {
+    public static int minTTE (int min, int aux_tte_min) {
         if (min < aux_tte_min)
             return min;
         return aux_tte_min;
     }
 
     //max value of tte
-    public static int MaxTTE (int max, int aux_tte_max){
+    public static int maxTTE (int max, int aux_tte_max){
         if (max > aux_tte_max)
             return max;
         return aux_tte_max;

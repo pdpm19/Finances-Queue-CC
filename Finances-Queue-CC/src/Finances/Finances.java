@@ -11,7 +11,16 @@ public class Finances extends Functions {
 
     // Main function
     public static void main(String[] args) throws InterruptedException {
-        int clock = 0, tme_q1 = 0, tme_q2 = 0, tme_q3 = 0, tte = 0, n_clients = 0, aux = 0, max=0, min =1000000, aux_tte_min = 0, aux_tte_max =0 ;
+        int clock = 0, n_clients = 0, aux = 0, max_tte = 0, min_tte = 1000000,
+            tte_q1 = 0, tte_q2 = 0, tte_q3 = 0, tte_q4 = 0,
+                real_n_clients_q1 = 0, real_n_clients_q2 = 0, real_n_clients_q3 = 0, real_n_clients_q4 = 0,     // Real number of clients attended
+                a_clients =0, b_clients=0, c_clients=0, direct=0,               // Total number of clients for every desk
+                a1_clients = 0, a2_clients = 0, b1_clients = 0, b2_clients = 0, treasury_clients = 0,
+                a_q1 = 0, a_q2 = 0,a_q3 = 0,a_q4 = 0,                           // A clients in every quarter
+                b_q1 = 0, b_q2 = 0,b_q3 = 0,b_q4 = 0,
+                c_q1 = 0, c_q2 = 0,c_q3 = 0,c_q4 = 0,
+                direct_q1 = 0, direct_q2 = 0,direct_q3 = 0,direct_q4 = 0;
+
 
         // Clients and Queues
         ArrayList<Client> raw_clients = new ArrayList<>();          // Clients in raw mode
@@ -53,6 +62,18 @@ public class Finances extends Functions {
         }
         System.out.println(clients);
 
+        // Total number of A, B, C and Direct clients in clients list
+        for (int i = 0; i < clients.size() ; i++) {
+            if (clients.get(i).getDesk() == 'A')
+                a_clients++;
+            else if (clients.get(i).getDesk() == 'B')
+                b_clients++;
+            else if (clients.get(i).getDesk() == 'C')
+                c_clients++;
+            else
+                direct++;
+        }
+
         int nextArrive = clients.get(0).getArriveTime();
 
 
@@ -63,7 +84,7 @@ public class Finances extends Functions {
                 SORTING PHASE
             */
             // Client goes to the next phase
-         //   System.out.println("clock:"+clock);
+            //   System.out.println("clock:"+clock);
 
             if (sorting.getBusyTime() == clock) {
                 if (sorting.getClient().getPriority() == 1 && sorting.getClient().getDirectTreasury() != 1)
@@ -100,8 +121,8 @@ public class Finances extends Functions {
                     sorting.setClient(clients.get(0));
                     clients.remove(0);
                 } else {
-                        queue_1.add(clients.get(0));
-                        clients.remove(0);
+                    queue_1.add(clients.get(0));
+                    clients.remove(0);
                 }
 
             }
@@ -132,21 +153,29 @@ public class Finances extends Functions {
 
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system " + a1.getClient());
-                    tte += (clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime()+a1.getClient().getTreasuryTime()));
-                    System.out.println(tte);
-
-                    aux_tte_min = clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime()+a1.getClient().getTreasuryTime());
-                    min = MinTTE(min, aux_tte_min);
-                    System.out.println("Min TTE: "+min);
-                    aux_tte_max = clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime()+a1.getClient().getTreasuryTime());
-                    max = MaxTTE (max, aux_tte_max);
-                    System.out.println("Max TTE: "+max);
-
-
-                //     tme_q1 += (clock - (a1.getClient().getArriveTime()+a1.getClient().getSortingTime()));
-                //    System.out.println(tme_q1);
-                //    tme_q2 += (clock-(a1.getClient().getSortingTime()+a1.getClient().getDeskTime()));
-                //    System.out.println(tme_q2);
+                    a1_clients++;
+                    if(a1.getClient().getArriveTime() <= 7200){
+                        a_q1++;
+                        real_n_clients_q1++;
+                        tte_q1 = (clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime() +a1.getClient().getTreasuryTime()));
+                    }
+                    else if(a1.getClient().getArriveTime() > 7200 && a1.getClient().getArriveTime() <= 14400){
+                        a_q2++;
+                        real_n_clients_q2++;
+                        tte_q2 = (clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime() +a1.getClient().getTreasuryTime()));
+                    }
+                    else if(a1.getClient().getArriveTime() > 14400 && a1.getClient().getArriveTime() <= 21600){
+                        a_q3++;
+                        real_n_clients_q3++;
+                        tte_q3 = (clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime() +a1.getClient().getTreasuryTime()));
+                    }
+                    else{
+                        a_q4++;
+                        real_n_clients_q4++;
+                        tte_q4 = (clock - (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime() +a1.getClient().getTreasuryTime()));
+                    }
+                    max_tte = maxTTE(max_tte, (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime() +a1.getClient().getTreasuryTime()));
+                    min_tte = minTTE(min_tte, (a1.getClient().getArriveTime() + a1.getClient().getSortingTime() + a1.getClient().getDeskTime() +a1.getClient().getTreasuryTime()));
                 }
             }
             // A1 is IDLE
@@ -201,18 +230,29 @@ public class Finances extends Functions {
 
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system "+ a2.getClient());
-                    tte += (clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime()+a2.getClient().getTreasuryTime()));
-                    System.out.println(tte);
-                    aux_tte_min = clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime()+a2.getClient().getTreasuryTime());
-                    min = MinTTE(min, aux_tte_min);
-                    System.out.println("Min TTE: "+min);
-                    aux_tte_max = clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime()+a2.getClient().getTreasuryTime());
-                    max = MaxTTE (max, aux_tte_max);
-                    System.out.println("Max TTE: "+max);
-                 //   tme_q1 += (clock - (a2.getClient().getArriveTime()+a2.getClient().getSortingTime()));
-                  //  System.out.println(tme_q1);
-                  //  tme_q2 += (clock-(a2.getClient().getSortingTime()+a2.getClient().getDeskTime()));
-                 //   System.out.println(tme_q2);
+                    a2_clients++;
+                    if(a2.getClient().getArriveTime() <= 7200){
+                        a_q1++;
+                        real_n_clients_q1++;
+                        tte_q1 = (clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime() +a2.getClient().getTreasuryTime()));
+                    }
+                    else if(a2.getClient().getArriveTime() > 7200 && a2.getClient().getArriveTime() <= 14400){
+                        a_q2++;
+                        real_n_clients_q2++;
+                        tte_q2 = (clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime() +a2.getClient().getTreasuryTime()));
+                    }
+                    else if(a2.getClient().getArriveTime() > 14400 && a2.getClient().getArriveTime() <= 21600){
+                        a_q3++;
+                        real_n_clients_q3++;
+                        tte_q3 = (clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime() +a2.getClient().getTreasuryTime()));
+                    }
+                    else{
+                        a_q4++;
+                        real_n_clients_q4++;
+                        tte_q4 = (clock - (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime() +a2.getClient().getTreasuryTime()));
+                    }
+                    max_tte = maxTTE(max_tte, (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime() +a2.getClient().getTreasuryTime()));
+                    min_tte = minTTE(min_tte, (a2.getClient().getArriveTime() + a2.getClient().getSortingTime() + a2.getClient().getDeskTime() +a2.getClient().getTreasuryTime()));
                 }
             }
             // A2 is IDLE
@@ -263,18 +303,29 @@ public class Finances extends Functions {
                         r_queue_3.add(b1.getClient());}
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system " + b1.getClient());
-                    tte += (clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime()+b1.getClient().getTreasuryTime()));
-                    System.out.println(tte);
-                    aux_tte_min = clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime()+b1.getClient().getTreasuryTime());
-                    min = MinTTE(min, aux_tte_min);
-                    System.out.println("Min TTE: "+min);
-                    aux_tte_max = clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime()+b1.getClient().getTreasuryTime());
-                    max = MaxTTE (max, aux_tte_max);
-                    System.out.println("Max TTE: "+max);
-                //    tme_q1 += (clock - (b1.getClient().getArriveTime()+b1.getClient().getSortingTime()));
-                 //   System.out.println(tme_q1);
-                 //   tme_q2 += (clock-(b1.getClient().getSortingTime()+b1.getClient().getDeskTime()));
-                 //   System.out.println(tme_q2);
+                    b1_clients++;
+                    if(b1.getClient().getArriveTime() <= 7200){
+                        b_q1++;
+                        real_n_clients_q1++;
+                        tte_q1 = (clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime() +b1.getClient().getTreasuryTime()));
+                    }
+                    else if(b1.getClient().getArriveTime() > 7200 && b1.getClient().getArriveTime() <= 14400){
+                        b_q2++;
+                        real_n_clients_q2++;
+                        tte_q2 = (clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime() +b1.getClient().getTreasuryTime()));
+                    }
+                    else if(b1.getClient().getArriveTime() > 14400 && b1.getClient().getArriveTime() <= 21600){
+                        b_q3++;
+                        real_n_clients_q3++;
+                        tte_q3 = (clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime() +b1.getClient().getTreasuryTime()));
+                    }
+                    else{
+                        b_q4++;
+                        real_n_clients_q4++;
+                        tte_q4 = (clock - (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime() +b1.getClient().getTreasuryTime()));
+                    }
+                    max_tte = maxTTE(max_tte, (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime() +b1.getClient().getTreasuryTime()));
+                    min_tte = minTTE(min_tte, (b1.getClient().getArriveTime() + b1.getClient().getSortingTime() + b1.getClient().getDeskTime() +b1.getClient().getTreasuryTime()));
                 }
                 b1.setState(0);
                 b1.setBusyTime(10000000);
@@ -319,30 +370,41 @@ public class Finances extends Functions {
                 b2.setState(0);
                 b2.setBusyTime(10000000);
 
-                    if (b2.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
+                if (b2.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
 
-                        if (b2.getClient().getPriority() == 1) {
-                            p_queue_3.add(b2.getClient());
-                        } else if (b2.getClient().getPriority() == 0) {
-                            g_queue_3.add(b2.getClient());
-                        } else {
-                            r_queue_3.add(b2.getClient());
-                        }
-                    } else {                                            // Clients exits the system
-                        System.out.println("Client exits the system "+ b2.getClient());
-                        tte += (clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime()+b2.getClient().getTreasuryTime()));
-                        System.out.println(tte);
-                        aux_tte_min = clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime()+b2.getClient().getTreasuryTime());
-                        min = MinTTE(min, aux_tte_min);
-                        System.out.println("Min TTE: "+min);
-                        aux_tte_max = clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime()+b2.getClient().getTreasuryTime());
-                        max = MaxTTE (max, aux_tte_max);
-                        System.out.println("Max TTE: "+max);
-                      //  tme_q1 += (clock - (b2.getClient().getArriveTime()+b2.getClient().getSortingTime()));
-                     //   System.out.println(tme_q1);
-                     //   tme_q2 += (clock-(b2.getClient().getSortingTime()+b2.getClient().getDeskTime()));
-                     //   System.out.println(tme_q2);
+                    if (b2.getClient().getPriority() == 1) {
+                        p_queue_3.add(b2.getClient());
+                    } else if (b2.getClient().getPriority() == 0) {
+                        g_queue_3.add(b2.getClient());
+                    } else {
+                        r_queue_3.add(b2.getClient());
                     }
+                } else {                                            // Clients exits the system
+                    System.out.println("Client exits the system "+ b2.getClient());
+                    b2_clients++;
+                    if(b2.getClient().getArriveTime() <= 7200){
+                        b_q1++;
+                        real_n_clients_q1++;
+                        tte_q1 = (clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime() +b2.getClient().getTreasuryTime()));
+                    }
+                    else if(b2.getClient().getArriveTime() > 7200 && b2.getClient().getArriveTime() <= 14400){
+                        b_q2++;
+                        real_n_clients_q2++;
+                        tte_q2 = (clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime() +b2.getClient().getTreasuryTime()));
+                    }
+                    else if(b2.getClient().getArriveTime() > 14400 && b2.getClient().getArriveTime() <= 21600){
+                        b_q3++;
+                        real_n_clients_q3++;
+                        tte_q3 = (clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime() +b2.getClient().getTreasuryTime()));
+                    }
+                    else{
+                        b_q4++;
+                        real_n_clients_q4++;
+                        tte_q4 = (clock - (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime() +b2.getClient().getTreasuryTime()));
+                    }
+                    max_tte = maxTTE(max_tte, (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime() +b2.getClient().getTreasuryTime()));
+                    min_tte = minTTE(min_tte, (b2.getClient().getArriveTime() + b2.getClient().getSortingTime() + b2.getClient().getDeskTime() +b2.getClient().getTreasuryTime()));
+                }
 
             }
 
@@ -395,18 +457,28 @@ public class Finances extends Functions {
                         r_queue_3.add(c.getClient());}
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system "+ c.getClient());
-                    tte += (clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime()+c.getClient().getTreasuryTime()));
-                    System.out.println(tte);
-                    aux_tte_min = clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime()+c.getClient().getTreasuryTime());
-                    min = MinTTE(min, aux_tte_min);
-                    System.out.println("Min TTE: "+min);
-                    aux_tte_max = clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime()+c.getClient().getTreasuryTime());
-                    max = MaxTTE (max, aux_tte_max);
-                    System.out.println("Max TTE: "+max);
-                   // tme_q1 += (clock - (c.getClient().getArriveTime()+c.getClient().getSortingTime()));
-                   // System.out.println(tme_q1);
-                   // tme_q2 += (clock-(c.getClient().getSortingTime()+c.getClient().getDeskTime()));
-                   // System.out.println(tme_q2);
+                    if(c.getClient().getArriveTime() <= 7200){
+                        c_q1++;
+                        real_n_clients_q1++;
+                        tte_q1 = (clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime() +c.getClient().getTreasuryTime()));
+                    }
+                    else if(c.getClient().getArriveTime() > 7200 && c.getClient().getArriveTime() <= 14400){
+                        c_q2++;
+                        real_n_clients_q2++;
+                        tte_q2 = (clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime() +c.getClient().getTreasuryTime()));
+                    }
+                    else if(c.getClient().getArriveTime() > 14400 && c.getClient().getArriveTime() <= 21600){
+                        c_q3++;
+                        real_n_clients_q3++;
+                        tte_q3 = (clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime() +c.getClient().getTreasuryTime()));
+                    }
+                    else{
+                        c_q4++;
+                        real_n_clients_q4++;
+                        tte_q4 = (clock - (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime() +c.getClient().getTreasuryTime()));
+                    }
+                    max_tte = maxTTE(max_tte, (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime() +c.getClient().getTreasuryTime()));
+                    min_tte = minTTE(min_tte, (c.getClient().getArriveTime() + c.getClient().getSortingTime() + c.getClient().getDeskTime() +c.getClient().getTreasuryTime()));
                 }
             }
             // C is IDLE
@@ -448,8 +520,8 @@ public class Finances extends Functions {
                 TREASURY PHASE
              */
             // Client exits
-           // System.out.println("tesouraria p3:" + p_queue_3);
-           // System.out.println("tesouraria g3:" + g_queue_3);
+            // System.out.println("tesouraria p3:" + p_queue_3);
+            // System.out.println("tesouraria g3:" + g_queue_3);
 
             if (treasury.getBusyTime() == clock){
 
@@ -458,26 +530,62 @@ public class Finances extends Functions {
                     Client y = treasury.getClient().clone();
                     y.setRepeat(0);
                     y.setTreasury(0);
-                   r_queue_2.add(y);
+                    r_queue_2.add(y);
                 }
                 else{
                     System.out.println("Client exits the system " + treasury.getClient());    //client exits the system
-                    //tte
-                    tte += (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() + treasury.getClient().getTreasuryTime()));
-                    System.out.println(tte);
-                    aux_tte_min = clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() + treasury.getClient().getTreasuryTime());
-                    min = MinTTE(min, aux_tte_min);
-                    System.out.println("Min TTE: "+min);
-                    aux_tte_max = clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() + treasury.getClient().getTreasuryTime());
-                    max = MaxTTE (max, aux_tte_max);
-                    System.out.println("Max TTE: "+max);
+                    treasury_clients++;
 
-                 //   tme_q1 += (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime()));
-                 //   System.out.println(tme_q1);
-                 //   tme_q2 += (clock - (treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime()));
-                 //   System.out.println(tme_q2);
-                 //   tme_q3 += (clock - (treasury.getClient().getDeskTime() + treasury.getClient().getTreasuryTime()));
-                 //   System.out.println(tme_q3);
+                    if(treasury.getClient().getArriveTime() <= 7200){
+                        if(treasury.getClient().getDesk() == 'A')
+                            a_q1++;
+                        else if(treasury.getClient().getDesk() == 'B')
+                            b_q1++;
+                        else if(treasury.getClient().getDesk() == 'C')
+                            c_q1++;
+                        else
+                            direct_q1++;
+                        real_n_clients_q1++;
+                        tte_q1 = (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
+                    }
+                    else if(treasury.getClient().getArriveTime() > 7200 && treasury.getClient().getArriveTime() <= 14400){
+                        if(treasury.getClient().getDesk() == 'A')
+                            a_q1++;
+                        else if(treasury.getClient().getDesk() == 'B')
+                            b_q1++;
+                        else if(treasury.getClient().getDesk() == 'C')
+                            c_q1++;
+                        else
+                            direct_q1++;
+                        real_n_clients_q2++;
+                        tte_q2 = (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
+                    }
+                    else if(treasury.getClient().getArriveTime() > 14400 && treasury.getClient().getArriveTime() <= 21600){
+                        if(treasury.getClient().getDesk() == 'A')
+                            a_q1++;
+                        else if(treasury.getClient().getDesk() == 'B')
+                            b_q1++;
+                        else if(treasury.getClient().getDesk() == 'C')
+                            c_q1++;
+                        else
+                            direct_q1++;
+                        real_n_clients_q3++;
+                        tte_q3 = (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
+                    }
+                    else{
+                        if(treasury.getClient().getDesk() == 'A')
+                            a_q1++;
+                        else if(treasury.getClient().getDesk() == 'B')
+                            b_q1++;
+                        else if(treasury.getClient().getDesk() == 'C')
+                            c_q1++;
+                        else
+                            direct_q1++;
+                        real_n_clients_q4++;
+                        tte_q4 = (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
+                    }
+                    max_tte = maxTTE(max_tte, (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
+                    min_tte = minTTE(min_tte, (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
 
                 }
 
@@ -506,7 +614,7 @@ public class Finances extends Functions {
                     g_queue_3.remove(0);
                 }
             }
-            
+
             // Clock
             System.out.println("1: " + nextArrive + " 2: " + sorting.getBusyTime() + " 3:" + a1.getBusyTime() + " 4:" + a2.getBusyTime() + " 5:" + b1.getBusyTime() + " 6:" + b2.getBusyTime() + " 7:" + c.getBusyTime() + " 8:" + treasury.getBusyTime());
             clock = min(nextArrive, sorting.getBusyTime(), a1.getBusyTime(), a2.getBusyTime(), b1.getBusyTime(), b2.getBusyTime(), c.getBusyTime(), treasury.getBusyTime());
@@ -514,22 +622,50 @@ public class Finances extends Functions {
             System.out.println();            //Thread.sleep(2000);
 
         }
-        System.out.println("Desks");
-        System.out.println("Queue 2 P: " + p_queue_2);
-        System.out.println("Queue 2 G: " + g_queue_2);
-        System.out.println("RAW 2: " + r_queue_2);
-        System.out.println("Treasury: ");
-        System.out.println("Queue 3 P: " + p_queue_3);
-        System.out.println("Queue 3 G: " + g_queue_3);
-        System.out.println("RAW 3: " + r_queue_3);
-        System.out.println("TTE: " + tte);
-        System.out.println("Nr of clients: " + n_clients);
-      //  System.out.println("TME Q1: " + tme_q1/n_clients);
-      //  System.out.println("TME Q2: " + tme_q2/n_clients);
-      //  System.out.println("TME Q3: " + tme_q3/n_clients);
-        System.out.println("TME: " +tte/n_clients);
-        System.out.println("Min TTE: " + min);
-        System.out.println("Max TTE : " + max);
+        // Prints finais
+        int real_clients = real_n_clients_q1 + real_n_clients_q2 + real_n_clients_q3 +real_n_clients_q4;
+        System.out.println("Total of clients: " + n_clients);
+        System.out.println("Number of attended clients: " + real_clients);
+        System.out.println("Number of clients to A desk: " + a_clients + " -> " + (float)a_clients/real_clients*100 + "%");
+        System.out.println("Number of clients to B desk: " + b_clients+ " -> " + (float)b_clients/real_clients*100 + "%");
+        System.out.println("Number of clients to C desk: " + c_clients + " -> " +(float)c_clients/real_clients*100 + "%");
+        System.out.println("Number of clients Direct: " + direct + " -> " +(float)direct/real_clients*100 + "%");
+        System.out.println("Number of clients attended by A1: " + a1_clients + " -> " + (float)a1_clients/a_clients*100 + "% of attended A clients");
+        System.out.println("Number of clients attended by A2: " + a2_clients + " -> " + (float)a2_clients/a_clients*100 + "% of attended A clients" );
+        System.out.println("Number of clients attended by B1: " + b1_clients + " -> " + (float)b1_clients/b_clients*100 + "% of attended B clients");
+        System.out.println("Number of clients attended by B2: " + b2_clients + " -> " + (float)b2_clients/b_clients*100 + "% of attended B clients");
+        System.out.println("Number of clients direct to treasury: " + direct + " -> " +(float)direct/real_clients*100 + "%");
+        System.out.println("A Q1: " + (float)a_q1/real_n_clients_q1*100);
+        System.out.println("A Q2: " + a_q2);
+        System.out.println("A Q3: " + a_q3);
+        System.out.println("A Q4: " + a_q4);
+        System.out.println("B Q1: " + b_q1);
+        System.out.println("B Q2: " + b_q2);
+        System.out.println("B Q3: " + b_q3);
+        System.out.println("B Q4: " + b_q4);
+        System.out.println("C Q1: " + c_q1);
+        System.out.println("C Q2: " + c_q2);
+        System.out.println("C Q3: " + c_q3);
+        System.out.println("C Q4: " + c_q4);
+        System.out.println("Direct Q1: " + direct_q1);
+        System.out.println("Direct Q2: " + direct_q2);
+        System.out.println("Direct Q3: " + direct_q3);
+        System.out.println("Direct Q4: " + direct_q4);
+        System.out.println("Nr. of clients in 1st Quarter: " + real_n_clients_q1);
+        System.out.println("Nr. of clients in 2nd Quarter: " + real_n_clients_q2);
+        System.out.println("Nr. of clients in 3rd Quarter: " + real_n_clients_q3);
+        System.out.println("Nr. of clients in 4th Quarter: " + real_n_clients_q4);
+        System.out.println("Percentage of clients attended: " + (float)real_clients/n_clients*100 + "%");
+        System.out.println("TTE: " + (tte_q1 + tte_q2 + tte_q3 + tte_q4));
+        System.out.println("1st TTE: " + tte_q1);
+        System.out.println("2nd TTE: " + tte_q2);
+        System.out.println("3rd TTE: " + tte_q3);
+        System.out.println("4th TTE: " + tte_q4);
+        System.out.println("TME: " + (float)(tte_q1/real_n_clients_q1 + tte_q2/real_n_clients_q2 + tte_q3/real_n_clients_q3 + tte_q4/real_n_clients_q4));
+        System.out.println("1st TME: " + (float)tte_q1/real_n_clients_q1);
+        System.out.println("2nd TME: " + (float)tte_q2/real_n_clients_q2);
+        System.out.println("3rd TME: " + (float)tte_q3/real_n_clients_q3);
+        System.out.println("4th TME: " + (float)tte_q4/real_n_clients_q4);
 
     }
 }
