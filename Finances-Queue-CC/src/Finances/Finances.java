@@ -113,6 +113,7 @@ public class Finances extends Functions {
                     sorting.setState(0);
                 }
             }
+
             // Client arrives
             if (nextArrive == clock) {
                 if (sorting.getState() == 0) {
@@ -142,10 +143,10 @@ public class Finances extends Functions {
                 a1.setBusyTime(10000000);
 
                 if (a1.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
-                    if (a1.getClient().getPriority() == 1){
+                    if (a1.getClient().getPriority() == 1 && a1.getClient().getRepeat() == 0){
                         p_queue_3.add(a1.getClient());}
 
-                    else if (a1.getClient().getPriority() == 0){
+                    else if (a1.getClient().getPriority() == 0  && a1.getClient().getRepeat() == 0){
                         g_queue_3.add(a1.getClient());}
 
                     else{
@@ -221,9 +222,9 @@ public class Finances extends Functions {
 
                 if (a2.getClient().getTreasury() == 1) {            // Client needs to pass through Treasury
 
-                    if (a2.getClient().getPriority() == 1){
+                    if (a2.getClient().getPriority() == 1  && a2.getClient().getRepeat() == 0){
                         p_queue_3.add(a2.getClient());}
-                    else if (a2.getClient().getPriority() == 0){
+                    else if (a2.getClient().getPriority() == 0  && a2.getClient().getRepeat() == 0){
                         g_queue_3.add(a2.getClient());}
                     else{
                         r_queue_3.add(a2.getClient());}
@@ -295,9 +296,9 @@ public class Finances extends Functions {
 
                 if (b1.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
 
-                    if (b1.getClient().getPriority() == 1)
+                    if (b1.getClient().getPriority() == 1  && b1.getClient().getRepeat() == 0)
                         p_queue_3.add(b1.getClient());
-                    else if (b1.getClient().getPriority() == 0){
+                    else if (b1.getClient().getPriority() == 0  && b1.getClient().getRepeat() == 0){
                         g_queue_3.add(b1.getClient());}
                     else{
                         r_queue_3.add(b1.getClient());}
@@ -372,9 +373,9 @@ public class Finances extends Functions {
 
                 if (b2.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
 
-                    if (b2.getClient().getPriority() == 1) {
+                    if (b2.getClient().getPriority() == 1  && b2.getClient().getRepeat() == 0) {
                         p_queue_3.add(b2.getClient());
-                    } else if (b2.getClient().getPriority() == 0) {
+                    } else if (b2.getClient().getPriority() == 0  && b2.getClient().getRepeat() == 0) {
                         g_queue_3.add(b2.getClient());
                     } else {
                         r_queue_3.add(b2.getClient());
@@ -449,9 +450,9 @@ public class Finances extends Functions {
                 c.setBusyTime(10000000);
                 if (c.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
 
-                    if (c.getClient().getPriority() == 1)
+                    if (c.getClient().getPriority() == 1  && c.getClient().getRepeat() == 0)
                         p_queue_3.add(c.getClient());
-                    else if (c.getClient().getPriority() == 0){
+                    else if (c.getClient().getPriority() == 0  && c.getClient().getRepeat() == 0){
                         g_queue_3.add(c.getClient());}
                     else{
                         r_queue_3.add(c.getClient());}
@@ -622,6 +623,13 @@ public class Finances extends Functions {
             System.out.println();            //Thread.sleep(2000);
 
         }
+        System.out.println(queue_1);
+        System.out.println(p_queue_2);
+        System.out.println(r_queue_2);
+        System.out.println(g_queue_2);
+        System.out.println(p_queue_3);
+        System.out.println(r_queue_3);
+        System.out.println(g_queue_3);
         // Prints finais
         int real_clients = real_n_clients_q1 + real_n_clients_q2 + real_n_clients_q3 +real_n_clients_q4;
         System.out.println("Total of clients: " + n_clients);
