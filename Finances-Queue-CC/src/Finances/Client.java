@@ -12,7 +12,6 @@ public class Client {
     int repeat;
 
     public Client(){
-
     }
 
     public Client(int t_arrive, int t_sorting, int priority, int direct_treasury, int t_desk, int treasury, int t_treasury, int repeat, char desk ){

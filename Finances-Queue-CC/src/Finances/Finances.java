@@ -184,10 +184,20 @@ public class Finances extends Functions {
                 if (!p_queue_2.isEmpty()) {
                     for (int i = 0; i < p_queue_2.size(); i++) {
                         if (p_queue_2.get(i).getDesk() == 'A') {
-                            a1.setState(1);
-                            a1.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
-                            a1.setClient(p_queue_2.get(i));
-                            p_queue_2.remove(i);
+                            if(p_queue_2.get(i).getRepeat() == 1){
+                                a1.setState(1);
+                                int old_time = p_queue_2.get(i).getDeskTime();
+                                p_queue_2.get(i).setDeskTime(generator(0, p_queue_2.get(i).getDeskTime()));
+                                a1.setBusyTime(clock + p_queue_2.get(i).getDeskTime() - old_time);
+                                a1.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
+                            else{
+                                a1.setState(1);
+                                a1.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
+                                a1.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -204,10 +214,20 @@ public class Finances extends Functions {
                 } else if (!g_queue_2.isEmpty()) {
                     for (int i = 0; i < g_queue_2.size(); i++) {
                         if (g_queue_2.get(i).getDesk() == 'A') {
-                            a1.setState(1);
-                            a1.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
-                            a1.setClient(g_queue_2.get(i));
-                            g_queue_2.remove(i);
+                            if(g_queue_2.get(i).getRepeat() == 1){
+                                a1.setState(1);
+                                int old_time = g_queue_2.get(i).getDeskTime();
+                                g_queue_2.get(i).setDeskTime(generator(0, g_queue_2.get(i).getDeskTime()));
+                                a1.setBusyTime(clock + g_queue_2.get(i).getDeskTime() - old_time);
+                                a1.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
+                            else{
+                                a1.setState(1);
+                                a1.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
+                                a1.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -261,10 +281,20 @@ public class Finances extends Functions {
                 if (!p_queue_2.isEmpty()) {
                     for (int i = 0; i < p_queue_2.size(); i++) {
                         if (p_queue_2.get(i).getDesk() == 'A') {
-                            a2.setState(1);
-                            a2.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
-                            a2.setClient(p_queue_2.get(i));
-                            p_queue_2.remove(i);
+                            if(p_queue_2.get(i).getRepeat() == 1){
+                                a2.setState(1);
+                                int old_time = p_queue_2.get(i).getDeskTime();
+                                p_queue_2.get(i).setDeskTime(generator(0, p_queue_2.get(i).getDeskTime()));
+                                a2.setBusyTime(clock + p_queue_2.get(i).getDeskTime() - old_time);
+                                a2.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
+                            else{
+                                a2.setState(1);
+                                a2.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
+                                a2.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -281,10 +311,20 @@ public class Finances extends Functions {
                 } else if (!g_queue_2.isEmpty()) {
                     for (int i = 0; i < g_queue_2.size(); i++) {
                         if (g_queue_2.get(i).getDesk() == 'A') {
-                            a2.setState(1);
-                            a2.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
-                            a2.setClient(g_queue_2.get(i));
-                            g_queue_2.remove(i);
+                            if(g_queue_2.get(i).getRepeat() == 1){
+                                a2.setState(1);
+                                int old_time = g_queue_2.get(i).getDeskTime();
+                                g_queue_2.get(i).setDeskTime(generator(0, g_queue_2.get(i).getDeskTime()));
+                                a2.setBusyTime(clock + g_queue_2.get(i).getDeskTime() - old_time);
+                                a2.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
+                            else{
+                                a2.setState(1);
+                                a2.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
+                                a2.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -336,10 +376,20 @@ public class Finances extends Functions {
                 if (!p_queue_2.isEmpty()) {
                     for (int i = 0; i < p_queue_2.size(); i++) {
                         if (p_queue_2.get(i).getDesk() == 'B') {
-                            b1.setState(1);
-                            b1.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
-                            b1.setClient(p_queue_2.get(i));
-                            p_queue_2.remove(i);
+                            if(p_queue_2.get(i).getRepeat() == 1){
+                                b1.setState(1);
+                                int old_time = p_queue_2.get(i).getDeskTime();
+                                p_queue_2.get(i).setDeskTime(generator(0, p_queue_2.get(i).getDeskTime()));
+                                b1.setBusyTime(clock + p_queue_2.get(i).getDeskTime() - old_time);
+                                b1.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
+                            else{
+                                b1.setState(1);
+                                b1.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
+                                b1.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -356,10 +406,20 @@ public class Finances extends Functions {
                 } else if (!g_queue_2.isEmpty()) {
                     for (int i = 0; i < g_queue_2.size(); i++) {
                         if (g_queue_2.get(i).getDesk() == 'B') {
-                            b1.setState(1);
-                            b1.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
-                            b1.setClient(g_queue_2.get(i));
-                            g_queue_2.remove(i);
+                            if(g_queue_2.get(i).getRepeat() == 1){
+                                b1.setState(1);
+                                int old_time = g_queue_2.get(i).getDeskTime();
+                                g_queue_2.get(i).setDeskTime(generator(0, g_queue_2.get(i).getDeskTime()));
+                                b1.setBusyTime(clock + g_queue_2.get(i).getDeskTime() - old_time);
+                                b1.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
+                            else{
+                                b1.setState(1);
+                                b1.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
+                                b1.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -414,10 +474,20 @@ public class Finances extends Functions {
                 if (!p_queue_2.isEmpty()) {
                     for (int i = 0; i < p_queue_2.size(); i++) {
                         if (p_queue_2.get(i).getDesk() == 'B') {
-                            b2.setState(1);
-                            b2.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
-                            b2.setClient(p_queue_2.get(i));
-                            p_queue_2.remove(i);
+                            if(p_queue_2.get(i).getRepeat() == 1){
+                                b2.setState(1);
+                                int old_time = p_queue_2.get(i).getDeskTime();
+                                p_queue_2.get(i).setDeskTime(generator(0, p_queue_2.get(i).getDeskTime()));
+                                b2.setBusyTime(clock + p_queue_2.get(i).getDeskTime() - old_time);
+                                b2.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
+                            else{
+                                b2.setState(1);
+                                b2.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
+                                b2.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -434,10 +504,20 @@ public class Finances extends Functions {
                 } else if (!g_queue_2.isEmpty()) {
                     for (int i = 0; i < g_queue_2.size(); i++) {
                         if (g_queue_2.get(i).getDesk() == 'B') {
-                            b2.setState(1);
-                            b2.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
-                            b2.setClient(g_queue_2.get(i));
-                            g_queue_2.remove(i);
+                            if(g_queue_2.get(i).getRepeat() == 1){
+                                b2.setState(1);
+                                int old_time = g_queue_2.get(i).getDeskTime();
+                                g_queue_2.get(i).setDeskTime(generator(0, g_queue_2.get(i).getDeskTime()));
+                                b2.setBusyTime(clock + g_queue_2.get(i).getDeskTime() - old_time);
+                                b2.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
+                            else{
+                                b2.setState(1);
+                                b2.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
+                                b2.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -487,10 +567,20 @@ public class Finances extends Functions {
                 if (!p_queue_2.isEmpty()) {
                     for (int i = 0; i < p_queue_2.size(); i++) {
                         if (p_queue_2.get(i).getDesk() == 'C') {
-                            c.setState(1);
-                            c.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
-                            c.setClient(p_queue_2.get(i));
-                            p_queue_2.remove(i);
+                            if(p_queue_2.get(i).getRepeat() == 1){
+                                c.setState(1);
+                                int old_time = p_queue_2.get(i).getDeskTime();
+                                p_queue_2.get(i).setDeskTime(generator(0, p_queue_2.get(i).getDeskTime()));
+                                c.setBusyTime(clock + p_queue_2.get(i).getDeskTime() - old_time);
+                                c.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
+                            else{
+                                c.setState(1);
+                                c.setBusyTime(clock + p_queue_2.get(i).getDeskTime());
+                                c.setClient(p_queue_2.get(i));
+                                p_queue_2.remove(i);
+                            }
                             break;
                         }
                     }
@@ -507,10 +597,20 @@ public class Finances extends Functions {
                 } else if (!g_queue_2.isEmpty()) {
                     for (int i = 0; i < g_queue_2.size(); i++) {
                         if (g_queue_2.get(i).getDesk() == 'C') {
-                            c.setState(1);
-                            c.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
-                            c.setClient(g_queue_2.get(i));
-                            g_queue_2.remove(i);
+                            if(g_queue_2.get(i).getRepeat() == 1){
+                                c.setState(1);
+                                int old_time = g_queue_2.get(i).getDeskTime();
+                                g_queue_2.get(i).setDeskTime(generator(0, g_queue_2.get(i).getDeskTime()));
+                                c.setBusyTime(clock + g_queue_2.get(i).getDeskTime() - old_time);
+                                c.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
+                            else{
+                                c.setState(1);
+                                c.setBusyTime(clock + g_queue_2.get(i).getDeskTime());
+                                c.setClient(g_queue_2.get(i));
+                                g_queue_2.remove(i);
+                            }
                             break;
                         }
                     }

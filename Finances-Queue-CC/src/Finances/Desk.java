@@ -5,9 +5,11 @@ public class Desk extends Client {
     int t_busy;
     Client c;
 
-    public Desk() {
+    public Desk(){
         state = 0;
         t_busy = 10000000;
+        c = new Client();
+        c.setRepeat(0);
     }
 
     // Gets
