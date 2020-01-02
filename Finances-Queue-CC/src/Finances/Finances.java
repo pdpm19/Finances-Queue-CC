@@ -15,7 +15,7 @@ public class Finances extends Functions {
             tte_q1 = 0, tte_q2 = 0, tte_q3 = 0, tte_q4 = 0,
                 real_n_clients_q1 = 0, real_n_clients_q2 = 0, real_n_clients_q3 = 0, real_n_clients_q4 = 0,     // Real number of clients attended
                 a_clients =0, b_clients=0, c_clients=0, direct=0,               // Total number of clients for every desk
-                a1_clients = 0, a2_clients = 0, b1_clients = 0, b2_clients = 0, treasury_clients = 0,
+                a1_clients = 0, a2_clients = 0, b1_clients = 0, b2_clients = 0, treasury_clients = 0, cc_clients=0,
                 a_q1 = 0, a_q2 = 0,a_q3 = 0,a_q4 = 0,                           // A clients in every quarter
                 b_q1 = 0, b_q2 = 0,b_q3 = 0,b_q4 = 0,
                 c_q1 = 0, c_q2 = 0,c_q3 = 0,c_q4 = 0,
@@ -141,8 +141,10 @@ public class Finances extends Functions {
             if (a1.getBusyTime() == clock) {
                 a1.setState(0);
                 a1.setBusyTime(10000000);
+                a1_clients++;
 
                 if (a1.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
+
                     if (a1.getClient().getPriority() == 1 && a1.getClient().getRepeat() == 0){
                         p_queue_3.add(a1.getClient());}
 
@@ -150,11 +152,12 @@ public class Finances extends Functions {
                         g_queue_3.add(a1.getClient());}
 
                     else{
-                        r_queue_3.add(a1.getClient());}
+                        r_queue_3.add(a1.getClient());
+                        a1_clients--;
+                    }
 
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system " + a1.getClient());
-                    a1_clients++;
                     if(a1.getClient().getArriveTime() <= 7200){
                         a_q1++;
                         real_n_clients_q1++;
@@ -239,6 +242,7 @@ public class Finances extends Functions {
             if (a2.getBusyTime() == clock) {
                 a2.setState(0);
                 a2.setBusyTime(10000000);
+                a2_clients++;
 
                 if (a2.getClient().getTreasury() == 1) {            // Client needs to pass through Treasury
 
@@ -247,11 +251,12 @@ public class Finances extends Functions {
                     else if (a2.getClient().getPriority() == 0  && a2.getClient().getRepeat() == 0){
                         g_queue_3.add(a2.getClient());}
                     else{
-                        r_queue_3.add(a2.getClient());}
+                        r_queue_3.add(a2.getClient());
+                        a2_clients--;
+                    }
 
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system "+ a2.getClient());
-                    a2_clients++;
                     if(a2.getClient().getArriveTime() <= 7200){
                         a_q1++;
                         real_n_clients_q1++;
@@ -341,10 +346,12 @@ public class Finances extends Functions {
                     else if (b1.getClient().getPriority() == 0  && b1.getClient().getRepeat() == 0){
                         g_queue_3.add(b1.getClient());}
                     else{
-                        r_queue_3.add(b1.getClient());}
+                        r_queue_3.add(b1.getClient());
+                        b1_clients--;
+
+                    }
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system " + b1.getClient());
-                    b1_clients++;
                     if(b1.getClient().getArriveTime() <= 7200){
                         b_q1++;
                         real_n_clients_q1++;
@@ -370,6 +377,8 @@ public class Finances extends Functions {
                 }
                 b1.setState(0);
                 b1.setBusyTime(10000000);
+                b1_clients++;
+
             }
             // B1 is IDLE
             if (b1.getState() == 0) {
@@ -426,10 +435,11 @@ public class Finances extends Functions {
                 }
             }
             // B2
-            // Client exits the B1
+            // Client exits the B2
             if (b2.getBusyTime() == clock) {
                 b2.setState(0);
                 b2.setBusyTime(10000000);
+                b2_clients++;
 
                 if (b2.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
 
@@ -439,10 +449,11 @@ public class Finances extends Functions {
                         g_queue_3.add(b2.getClient());
                     } else {
                         r_queue_3.add(b2.getClient());
+                        b2_clients--;
+
                     }
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system "+ b2.getClient());
-                    b2_clients++;
                     if(b2.getClient().getArriveTime() <= 7200){
                         b_q1++;
                         real_n_clients_q1++;
@@ -526,6 +537,7 @@ public class Finances extends Functions {
             // C
             // Client exits the C
             if (c.getBusyTime() == clock) {
+                cc_clients++;
                 c.setState(0);
                 c.setBusyTime(10000000);
                 if (c.getClient().getTreasury() == 1) {         // Client needs to pass through Treasury
@@ -535,7 +547,10 @@ public class Finances extends Functions {
                     else if (c.getClient().getPriority() == 0  && c.getClient().getRepeat() == 0){
                         g_queue_3.add(c.getClient());}
                     else{
-                        r_queue_3.add(c.getClient());}
+                        r_queue_3.add(c.getClient());
+                        cc_clients--;
+
+                    }
                 } else {                                            // Clients exits the system
                     System.out.println("Client exits the system "+ c.getClient());
                     if(c.getClient().getArriveTime() <= 7200){
@@ -625,6 +640,7 @@ public class Finances extends Functions {
             // System.out.println("tesouraria g3:" + g_queue_3);
 
             if (treasury.getBusyTime() == clock){
+                treasury_clients++;
 
                 if(treasury.getClient().getRepeat() == 1){      // if client returns to desk A,B or C after treasury
                     // clone of the client to r_queue_2
@@ -635,7 +651,6 @@ public class Finances extends Functions {
                 }
                 else{
                     System.out.println("Client exits the system " + treasury.getClient());    //client exits the system
-                    treasury_clients++;
 
                     if(treasury.getClient().getArriveTime() <= 7200){
                         if(treasury.getClient().getDesk() == 'A')
@@ -651,37 +666,37 @@ public class Finances extends Functions {
                     }
                     else if(treasury.getClient().getArriveTime() > 7200 && treasury.getClient().getArriveTime() <= 14400){
                         if(treasury.getClient().getDesk() == 'A')
-                            a_q1++;
+                            a_q2++;
                         else if(treasury.getClient().getDesk() == 'B')
-                            b_q1++;
+                            b_q2++;
                         else if(treasury.getClient().getDesk() == 'C')
-                            c_q1++;
+                            c_q2++;
                         else
-                            direct_q1++;
+                            direct_q2++;
                         real_n_clients_q2++;
                         tte_q2 = (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
                     }
                     else if(treasury.getClient().getArriveTime() > 14400 && treasury.getClient().getArriveTime() <= 21600){
                         if(treasury.getClient().getDesk() == 'A')
-                            a_q1++;
+                            a_q3++;
                         else if(treasury.getClient().getDesk() == 'B')
-                            b_q1++;
+                            b_q3++;
                         else if(treasury.getClient().getDesk() == 'C')
-                            c_q1++;
+                            c_q3++;
                         else
-                            direct_q1++;
+                            direct_q3++;
                         real_n_clients_q3++;
                         tte_q3 = (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
                     }
                     else{
                         if(treasury.getClient().getDesk() == 'A')
-                            a_q1++;
+                            a_q4++;
                         else if(treasury.getClient().getDesk() == 'B')
-                            b_q1++;
+                            b_q4++;
                         else if(treasury.getClient().getDesk() == 'C')
-                            c_q1++;
+                            c_q4++;
                         else
-                            direct_q1++;
+                            direct_q4++;
                         real_n_clients_q4++;
                         tte_q4 = (clock - (treasury.getClient().getArriveTime() + treasury.getClient().getSortingTime() + treasury.getClient().getDeskTime() +treasury.getClient().getTreasuryTime()));
                     }
@@ -723,57 +738,79 @@ public class Finances extends Functions {
             System.out.println();            //Thread.sleep(2000);
 
         }
-        System.out.println(queue_1);
-        System.out.println(p_queue_2);
-        System.out.println(r_queue_2);
-        System.out.println(g_queue_2);
-        System.out.println(p_queue_3);
-        System.out.println(r_queue_3);
-        System.out.println(g_queue_3);
-        // Prints finais
+
         int real_clients = real_n_clients_q1 + real_n_clients_q2 + real_n_clients_q3 +real_n_clients_q4;
-        System.out.println("Total of clients: " + n_clients);
-        System.out.println("Number of attended clients: " + real_clients);
-        System.out.println("Number of clients to A desk: " + a_clients + " -> " + (float)a_clients/real_clients*100 + "%");
-        System.out.println("Number of clients to B desk: " + b_clients+ " -> " + (float)b_clients/real_clients*100 + "%");
-        System.out.println("Number of clients to C desk: " + c_clients + " -> " +(float)c_clients/real_clients*100 + "%");
-        System.out.println("Number of clients Direct: " + direct + " -> " +(float)direct/real_clients*100 + "%");
-        System.out.println("Number of clients attended by A1: " + a1_clients + " -> " + (float)a1_clients/a_clients*100 + "% of attended A clients");
-        System.out.println("Number of clients attended by A2: " + a2_clients + " -> " + (float)a2_clients/a_clients*100 + "% of attended A clients" );
-        System.out.println("Number of clients attended by B1: " + b1_clients + " -> " + (float)b1_clients/b_clients*100 + "% of attended B clients");
-        System.out.println("Number of clients attended by B2: " + b2_clients + " -> " + (float)b2_clients/b_clients*100 + "% of attended B clients");
-        System.out.println("Number of clients direct to treasury: " + direct + " -> " +(float)direct/real_clients*100 + "%");
-        System.out.println("A Q1: " + (float)a_q1/real_n_clients_q1*100);
-        System.out.println("A Q2: " + a_q2);
-        System.out.println("A Q3: " + a_q3);
-        System.out.println("A Q4: " + a_q4);
-        System.out.println("B Q1: " + b_q1);
-        System.out.println("B Q2: " + b_q2);
-        System.out.println("B Q3: " + b_q3);
-        System.out.println("B Q4: " + b_q4);
-        System.out.println("C Q1: " + c_q1);
-        System.out.println("C Q2: " + c_q2);
-        System.out.println("C Q3: " + c_q3);
-        System.out.println("C Q4: " + c_q4);
-        System.out.println("Direct Q1: " + direct_q1);
-        System.out.println("Direct Q2: " + direct_q2);
-        System.out.println("Direct Q3: " + direct_q3);
-        System.out.println("Direct Q4: " + direct_q4);
-        System.out.println("Nr. of clients in 1st Quarter: " + real_n_clients_q1);
-        System.out.println("Nr. of clients in 2nd Quarter: " + real_n_clients_q2);
-        System.out.println("Nr. of clients in 3rd Quarter: " + real_n_clients_q3);
-        System.out.println("Nr. of clients in 4th Quarter: " + real_n_clients_q4);
-        System.out.println("Percentage of clients attended: " + (float)real_clients/n_clients*100 + "%");
-        System.out.println("TTE: " + (tte_q1 + tte_q2 + tte_q3 + tte_q4));
-        System.out.println("1st TTE: " + tte_q1);
-        System.out.println("2nd TTE: " + tte_q2);
-        System.out.println("3rd TTE: " + tte_q3);
-        System.out.println("4th TTE: " + tte_q4);
+        System.out.println("********************************INICIO SIMULAÇÃO********************************");
+        System.out.println();
+        System.out.println("Nº de clientes gerados: " + n_clients);
+        System.out.println("Nº de clientes atendidos (saiem do sistema): " + real_clients + " -> " + (float)real_clients/n_clients*100 + "% dos clientes gerados.");
+        System.out.println("--------Balcões--------");
+        System.out.println("Nº de clientes gerados para o Balcão A: " + a_clients + " -> " + (float)a_clients/n_clients*100 + "%.");
+        System.out.println("Nº de clientes gerados para o Balcão B: " + b_clients+ " -> " + (float)b_clients/n_clients*100 + "%.");
+        System.out.println("Nº de clientes gerados para o Balcão C: " + c_clients + " -> " +(float)c_clients/n_clients*100 + "%.");
+        System.out.println("Nº de clientes que vão diretos à Tesouraria: " + direct + " -> " +(float)direct/n_clients*100 + "%.");
+        System.out.println();
+        System.out.println("Nº clientes atendidos no Balcão A1: " + a1_clients + " -> " + (float)a1_clients/a_clients*100 + "% dos clientes A"+ " -> "
+                + (float)a1_clients/real_clients*100 + "% dos clientes totais atendidos" + " -> " + (float)a1_clients/n_clients*100 + "% dos clientes gerados.");
+        System.out.println("Nº clientes atendidos no Balcão A2: " + a2_clients + " -> " + (float)a2_clients/a_clients*100 + "% dos clientes A"+ " -> "
+                + (float)a2_clients/real_clients*100 + "% dos clientes totais atendidos" + " -> " + (float)a2_clients/n_clients*100 + "% dos clientes gerados.");
+        System.out.println("Nº clientes atendidos no Balcão B1: " + b1_clients + " -> " + (float)b1_clients/b_clients*100 + "% dos clientes B"+ " -> "
+                + (float)b1_clients/real_clients*100 + "% dos clientes totais atendidos" + " -> " + (float)b1_clients/n_clients*100 + "% dos clientes gerados.");
+        System.out.println("Nº clientes atendidos no Balcão B2: " + b2_clients + " -> " + (float)b2_clients/b_clients*100 + "% dos clientes B"+ " -> "
+                + (float)b2_clients/real_clients*100 + "% dos clientes totais atendidos" + " -> " + (float)b2_clients/n_clients*100 + "% dos clientes gerados.");
+        System.out.println("Nº clientes atendidos no Balcão C: " + cc_clients + " -> " + (float)cc_clients/c_clients*100 + "% dos clientes C"+ " -> "
+                + (float)cc_clients/real_clients*100 + "% dos clientes totais atendidos" + " -> " + (float)cc_clients/n_clients*100 + "% dos clientes gerados.");
+        System.out.println("Nº clientes atendidos na Tesouraria: " + treasury_clients + " -> " + (float)treasury_clients/treasury_clients*100 + "% dos clientes que passam na Tesouraria"
+                + " -> " + (float)treasury_clients/real_clients*100 + "% dos clientes totais atendidos" + " -> " + (float)treasury_clients/n_clients*100 + "% dos clientes gerados.");
+        System.out.println();
+        System.out.println("--------Quadrantes--------");
+        System.out.println("Nº total de clientes atendidos (9h-11h): " + (real_n_clients_q1) + " -> " + ((float)real_n_clients_q1)/real_clients*100 + "% de clientes atendidos.");
+        System.out.println("Nº total de clientes atendidos (11h-13h): " + (real_n_clients_q2) + " -> " + ((float)real_n_clients_q2)/real_clients*100 + "% de clientes atendidos.");
+        System.out.println("Nº total de clientes atendidos (13h-15h): " + (real_n_clients_q3) + " -> " + ((float)real_n_clients_q3)/real_clients*100 + "% de clientes atendidos.");
+        System.out.println("Nº total de clientes atendidos (15h-17h): " + (real_n_clients_q4) + " -> " + ((float)real_n_clients_q4)/real_clients*100 + "% de clientes atendidos.");
+        System.out.println("Quadrante 1");
+        System.out.println("Nº clientes antendidos A: " + a_q1 + " -> " + (float)a_q1/real_n_clients_q1*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes antendidos B: " + b_q1 + " -> " + (float)b_q1/real_n_clients_q1*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes antendidos C: " + c_q1 + " -> " + (float)c_q1/real_n_clients_q1*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes atendidos que vão diretos para a Tesouraria: " + direct_q1 + " -> " + (float)direct_q1/real_n_clients_q1*100 + "%");
+        System.out.println("Quadrante 2");
+        System.out.println("Nº clientes antendidos A: " + a_q2 + " -> " + (float)a_q2/real_n_clients_q2*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes antendidos B: " + b_q2 + " -> " + (float)b_q2/real_n_clients_q2*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes antendidos C: " + c_q2 + " -> " + (float)c_q2/real_n_clients_q2*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes atendidos que vão diretos para a Tesouraria: " + direct_q2 + " -> " + (float)direct_q2/real_n_clients_q2*100 + "%");
+        System.out.println("Quadrante 3");
+        System.out.println("Nº clientes antendidos A: " + a_q3 + " -> " + (float)a_q3/real_n_clients_q3*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes antendidos B: " + b_q3 + " -> " + (float)b_q3/real_n_clients_q3*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes antendidos C: " + c_q3 + " -> " + (float)c_q3/real_n_clients_q3*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes atendidos que vão diretos para a Tesouraria: " + direct_q3 + " -> " + (float)direct_q3/real_n_clients_q3*100 + "%");
+        System.out.println("Quadrante 4");
+        System.out.println("Nº clientes antendidos A: " + a_q4 + " -> " + (float)a_q4/real_n_clients_q4*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes antendidos B: " + b_q4 + " -> " + (float)b_q4/real_n_clients_q4*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes antendidos C: " + c_q4 + " -> " + (float)c_q4/real_n_clients_q4*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println("Nº clientes atendidos que vão diretos para a Tesouraria: " + direct_q4 + " -> " + (float)direct_q4/real_n_clients_q4*100 + "% dos clientes atendidos neste quadrante.");
+        System.out.println();
+        System.out.println("--------Variáveis Estatísticas--------");
+        System.out.println("TTE: " + (tte_q1 + tte_q2 + tte_q3 + tte_q4) + " -> " + "TTE Min: " + min_tte + " TTE Max: " + max_tte);
+        System.out.println("TTE do Q1: " + tte_q1);
+        System.out.println("TTE do Q2: " + tte_q2);
+        System.out.println("TTE do Q3: " + tte_q3);
+        System.out.println("TTE do Q4: " + tte_q4);
         System.out.println("TME: " + (float)(tte_q1/real_n_clients_q1 + tte_q2/real_n_clients_q2 + tte_q3/real_n_clients_q3 + tte_q4/real_n_clients_q4));
-        System.out.println("1st TME: " + (float)tte_q1/real_n_clients_q1);
-        System.out.println("2nd TME: " + (float)tte_q2/real_n_clients_q2);
-        System.out.println("3rd TME: " + (float)tte_q3/real_n_clients_q3);
-        System.out.println("4th TME: " + (float)tte_q4/real_n_clients_q4);
+        System.out.println("TME do Q1: " + (float)tte_q1/real_n_clients_q1);
+        System.out.println("TME do Q1: " + (float)tte_q2/real_n_clients_q2);
+        System.out.println("TME do Q1: " + (float)tte_q3/real_n_clients_q3);
+        System.out.println("TME do Q1: " + (float)tte_q4/real_n_clients_q4);
+        System.out.println();
+        System.out.println("--------Filas de Espera--------");
+        System.out.println("Triagem: " + queue_1);
+        System.out.println("Prioritários Balcões: " + p_queue_2);
+        System.out.println("Repetentes Balcões: " + r_queue_2);
+        System.out.println("Gerais Balcões: " + g_queue_2);
+        System.out.println("Prioritários Tesouraria: " + p_queue_3);
+        System.out.println("Repetentes Tesouraria: " + r_queue_3);
+        System.out.println("Gerais Tesouraria: " + g_queue_3);
+        System.out.println();
+        System.out.println("********************************FIM SIMULAÇÃO********************************");
 
     }
 }

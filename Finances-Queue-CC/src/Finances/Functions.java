@@ -56,9 +56,9 @@ public class Functions {
         double p_entrada = Math.random();
         if (p_entrada <= 0.10)
             return (generator(0, 7200));
-        else if (p_entrada <= 0.20)
+        else if (p_entrada <= 0.30)
             return (generator(21600, 28800));
-        else if (p_entrada <= 0.25)
+        else if (p_entrada <= 0.55)
             return (generator(7200, 14400));
         else
             return (generator(14400, 21600));
@@ -69,7 +69,7 @@ public class Functions {
         double p_triagem = Math.random();
         if (p_triagem <= 0.10)
             return (generator(120, 180));
-        else if (p_triagem <= 0.35)
+        else if (p_triagem <= 0.45)
             return (generator(60, 120));
         else
             return (generator(0, 60));
@@ -88,7 +88,7 @@ public class Functions {
         double p_balcao = Math.random();
         if (p_balcao <= 0.15)
             return 'C';
-        else if (p_balcao <= 0.30)
+        else if (p_balcao <= 0.50)
             return 'A';
         else
             return 'B';
@@ -100,27 +100,27 @@ public class Functions {
         if (a == 'A') {
             if (p_tempo <= 0.10)
                 return (generator(1500, 1800));
-            else if (p_tempo <= 0.25)
+            else if (p_tempo <= 0.35)
                 return (generator(0, 300));
-            else if (p_tempo <= 0.30)
+            else if (p_tempo <= 0.65)
                 return (generator(900, 1500));
             else
                 return (generator(300, 900));
         } else if (a == 'B') {
             if (p_tempo <= 0.05)
                 return (generator(900, 1200));
-            else if (p_tempo <= 0.25)
-                return (generator(600, 900));
             else if (p_tempo <= 0.30)
+                return (generator(600, 900));
+            else if (p_tempo <= 0.55)
                 return (generator(0, 300));
             else
                 return (generator(300, 600));
         } else {
-            if (p_tempo <= 0.05)
+            if (p_tempo <= 0.10)
                 return (generator(0, 300));
-            else if (p_tempo <= 0.15)
+            else if (p_tempo <= 0.20)
                 return (generator(900, 1200));
-            else if (p_tempo <= 0.35)
+            else if (p_tempo <= 0.55)
                 return (generator(300, 600));
             else
                 return (generator(600, 900));
@@ -152,7 +152,7 @@ public class Functions {
         double p_tesouraria = Math.random();
         if (p_tesouraria <= 0.05)
             return (generator(120, 180));
-        else if (p_tesouraria <= 0.40)
+        else if (p_tesouraria <= 0.45)
             return (generator(0, 60));
         else
             return (generator(60, 120));
