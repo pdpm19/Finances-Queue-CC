@@ -1,6 +1,9 @@
 package Finances;
 
 import java.util.ArrayList;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 /*
     MAX CLOCK = 28.800
@@ -25,7 +28,18 @@ public class Finances extends Functions {
                 n_q_waiting = 0, n_p2_waiting = 0, n_r2_waiting = 0, n_g2_waiting = 0,      // Number of clients on Waiting time on every queue
                 n_p3_waiting = 0, n_r3_waiting = 0, n_g3_waiting = 0;
 
-
+        // Output file of the simulation
+        try {
+            File myObj = new File("simulation.txt");
+            if (myObj.createNewFile()) {
+                System.out.println("File created: " + myObj.getName());
+            } else {
+                System.out.println("File already exists.");
+            }
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
         // Clients and Queues
         ArrayList<Client> raw_clients = new ArrayList<>();          // Clients in raw mode
         ArrayList<Client> clients = new ArrayList<>();              // Clients ordered by t_arrive
@@ -48,9 +62,8 @@ public class Finances extends Functions {
 
 
         // Generate the number of clients, [120-150]
-        do {
+        while (n_clients < 120 || n_clients > 150)
             n_clients = (int) (Math.random() * 1000);
-        } while (n_clients < 120 || n_clients > 150);
 
         // Generate the clients data
         clientGenerator(raw_clients, n_clients);
@@ -795,11 +808,11 @@ public class Finances extends Functions {
         }
 
         int real_clients = real_n_clients_q1 + real_n_clients_q2 + real_n_clients_q3 + real_n_clients_q4;
-        System.out.println("********************************INICIO SIMULAÇÃO********************************");
+        System.out.println("**************************************************************INICIO SIMULAÇÃO**************************************************************");
         System.out.println();
         System.out.println("Nº de clientes gerados: " + n_clients);
         System.out.println("Nº de clientes atendidos (saiem do sistema): " + real_clients + " -> " + (float) real_clients / n_clients * 100 + "% dos clientes gerados.");
-        System.out.println("--------Balcões--------");
+        System.out.println("-----------------------Balcões-----------------------");
         System.out.println("Nº de clientes gerados para o Balcão A: " + a_clients + " -> " + (float) a_clients / n_clients * 100 + "%.");
         System.out.println("Nº de clientes gerados para o Balcão B: " + b_clients + " -> " + (float) b_clients / n_clients * 100 + "%.");
         System.out.println("Nº de clientes gerados para o Balcão C: " + c_clients + " -> " + (float) c_clients / n_clients * 100 + "%.");
@@ -818,7 +831,7 @@ public class Finances extends Functions {
         System.out.println("Nº clientes atendidos na Tesouraria: " + treasury_clients + " -> " + (float) treasury_clients / treasury_clients * 100 + "% dos clientes que passam na Tesouraria"
                 + " -> " + (float) treasury_clients / real_clients * 100 + "% dos clientes totais atendidos" + " -> " + (float) treasury_clients / n_clients * 100 + "% dos clientes gerados.");
         System.out.println();
-        System.out.println("--------Quadrantes--------");
+        System.out.println("-----------------------Quadrantes-----------------------");
         System.out.println("Nº total de clientes atendidos Q1 (9h-11h): " + (real_n_clients_q1) + " -> " + ((float) real_n_clients_q1) / real_clients * 100 + "% de clientes atendidos.");
         System.out.println("Nº total de clientes atendidos Q2 (11h-13h): " + (real_n_clients_q2) + " -> " + ((float) real_n_clients_q2) / real_clients * 100 + "% de clientes atendidos.");
         System.out.println("Nº total de clientes atendidos Q3 (13h-15h): " + (real_n_clients_q3) + " -> " + ((float) real_n_clients_q3) / real_clients * 100 + "% de clientes atendidos.");
@@ -844,7 +857,7 @@ public class Finances extends Functions {
         System.out.println("Nº clientes antendidos C: " + c_q4 + " -> " + (float) c_q4 / real_n_clients_q4 * 100 + "% dos clientes atendidos neste quadrante.");
         System.out.println("Nº clientes atendidos que vão diretos para a Tesouraria: " + direct_q4 + " -> " + (float) direct_q4 / real_n_clients_q4 * 100 + "% dos clientes atendidos neste quadrante.");
         System.out.println();
-        System.out.println("--------Variáveis Estatísticas--------");
+        System.out.println("-----------------------Variáveis Estatísticas-----------------------");
         System.out.println("TTE: " + (tte_q1 + tte_q2 + tte_q3 + tte_q4) + " -> " + "TTE Min: " + min_tte + " TTE Max: " + max_tte);
         System.out.println("TTE do Q1: " + tte_q1);
         System.out.println("TTE do Q2: " + tte_q2);
@@ -856,7 +869,7 @@ public class Finances extends Functions {
         System.out.println("TME do Q3: " + (float) tte_q3 / real_n_clients_q3);
         System.out.println("TME do Q4: " + (float) tte_q4 / real_n_clients_q4);
         System.out.println();
-        System.out.println("--------Filas de Espera--------");
+        System.out.println("-----------------------Filas de Espera-----------------------");
         System.out.println("Triagem: " + queue_1);
         System.out.println("Prioritários Balcões: " + p_queue_2);
         System.out.println("Repetentes Balcões: " + r_queue_2);
@@ -872,7 +885,7 @@ public class Finances extends Functions {
         System.out.println("TME da fila Repetentes Tesouraria: " + (float)r3_waiting/n_r3_waiting);
         System.out.println("TME da flia Gerais Tesouraria: " + (float)g3_waiting/n_g3_waiting);
         System.out.println();
-        System.out.println("********************************FIM SIMULAÇÃO********************************");
+        System.out.println("**************************************************************FIM SIMULAÇÃO**************************************************************");
 
 
 

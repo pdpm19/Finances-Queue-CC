@@ -1,0 +1,1915 @@
+[Arrive Time: 1370, Sorting Time: 112, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:446, Treasury: 1, Treasury Time: 30, Repeat: 1, Waiting: 0
+, Arrive Time: 1386, Sorting Time: 51, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:606, Treasury: 1, Treasury Time: 73, Repeat: 0, Waiting: 0
+, Arrive Time: 1961, Sorting Time: 6, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:516, Treasury: 1, Treasury Time: 12, Repeat: 0, Waiting: 0
+, Arrive Time: 2460, Sorting Time: 10, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:861, Treasury: 1, Treasury Time: 96, Repeat: 0, Waiting: 0
+, Arrive Time: 2631, Sorting Time: 7, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:823, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 2695, Sorting Time: 35, Direct Treasury: 1, Priority: 1, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 117, Repeat: 0, Waiting: 0
+, Arrive Time: 2895, Sorting Time: 69, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:396, Treasury: 1, Treasury Time: 91, Repeat: 0, Waiting: 0
+, Arrive Time: 2919, Sorting Time: 157, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1296, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 3183, Sorting Time: 46, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:5, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 3368, Sorting Time: 80, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:47, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 4870, Sorting Time: 132, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:586, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 5147, Sorting Time: 33, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:506, Treasury: 1, Treasury Time: 52, Repeat: 1, Waiting: 0
+, Arrive Time: 5989, Sorting Time: 116, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:877, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 6466, Sorting Time: 12, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:460, Treasury: 1, Treasury Time: 5, Repeat: 1, Waiting: 0
+, Arrive Time: 7293, Sorting Time: 101, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:543, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 7856, Sorting Time: 101, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:174, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 8544, Sorting Time: 33, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:177, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 8579, Sorting Time: 54, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:565, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 8821, Sorting Time: 65, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:493, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 8941, Sorting Time: 58, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:1049, Treasury: 1, Treasury Time: 147, Repeat: 0, Waiting: 0
+, Arrive Time: 9473, Sorting Time: 2, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:615, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 9569, Sorting Time: 8, Direct Treasury: 1, Priority: 1, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 161, Repeat: 0, Waiting: 0
+, Arrive Time: 9749, Sorting Time: 103, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:501, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 10363, Sorting Time: 99, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:133, Treasury: 1, Treasury Time: 94, Repeat: 0, Waiting: 0
+, Arrive Time: 10958, Sorting Time: 74, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:216, Treasury: 1, Treasury Time: 45, Repeat: 0, Waiting: 0
+, Arrive Time: 11041, Sorting Time: 12, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:44, Treasury: 1, Treasury Time: 123, Repeat: 1, Waiting: 0
+, Arrive Time: 11047, Sorting Time: 51, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:313, Treasury: 1, Treasury Time: 6, Repeat: 0, Waiting: 0
+, Arrive Time: 11112, Sorting Time: 117, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:657, Treasury: 1, Treasury Time: 82, Repeat: 1, Waiting: 0
+, Arrive Time: 11242, Sorting Time: 34, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:636, Treasury: 1, Treasury Time: 7, Repeat: 0, Waiting: 0
+, Arrive Time: 11506, Sorting Time: 105, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:509, Treasury: 1, Treasury Time: 64, Repeat: 0, Waiting: 0
+, Arrive Time: 12072, Sorting Time: 47, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:428, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 12073, Sorting Time: 47, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1434, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 12114, Sorting Time: 66, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 20, Repeat: 0, Waiting: 0
+, Arrive Time: 12323, Sorting Time: 102, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:316, Treasury: 1, Treasury Time: 112, Repeat: 0, Waiting: 0
+, Arrive Time: 12900, Sorting Time: 85, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:162, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 12984, Sorting Time: 86, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 33, Repeat: 0, Waiting: 0
+, Arrive Time: 13014, Sorting Time: 27, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:562, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 13210, Sorting Time: 95, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:654, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 13237, Sorting Time: 54, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:444, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 13362, Sorting Time: 28, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 90, Repeat: 0, Waiting: 0
+, Arrive Time: 13384, Sorting Time: 98, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:362, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 13517, Sorting Time: 118, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:269, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 13563, Sorting Time: 63, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:1155, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 14029, Sorting Time: 83, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 102, Repeat: 0, Waiting: 0
+, Arrive Time: 14405, Sorting Time: 157, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:695, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 14443, Sorting Time: 24, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 10, Repeat: 0, Waiting: 0
+, Arrive Time: 14504, Sorting Time: 45, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:717, Treasury: 1, Treasury Time: 25, Repeat: 0, Waiting: 0
+, Arrive Time: 14539, Sorting Time: 79, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:269, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 14606, Sorting Time: 118, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:681, Treasury: 1, Treasury Time: 80, Repeat: 0, Waiting: 0
+, Arrive Time: 14939, Sorting Time: 42, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1750, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 15262, Sorting Time: 26, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:685, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 15397, Sorting Time: 43, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 122, Repeat: 0, Waiting: 0
+, Arrive Time: 15444, Sorting Time: 32, Direct Treasury: 1, Priority: 1, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 11, Repeat: 0, Waiting: 0
+, Arrive Time: 15531, Sorting Time: 96, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:251, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 15962, Sorting Time: 117, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:374, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 15987, Sorting Time: 53, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:757, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 16198, Sorting Time: 80, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:184, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 16252, Sorting Time: 105, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:574, Treasury: 1, Treasury Time: 129, Repeat: 1, Waiting: 0
+, Arrive Time: 16381, Sorting Time: 95, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:180, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 16434, Sorting Time: 29, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:523, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 16683, Sorting Time: 25, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:36, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 16865, Sorting Time: 41, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:521, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 16913, Sorting Time: 13, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:685, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 17055, Sorting Time: 68, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:711, Treasury: 1, Treasury Time: 29, Repeat: 0, Waiting: 0
+, Arrive Time: 17135, Sorting Time: 48, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 106, Repeat: 0, Waiting: 0
+, Arrive Time: 17161, Sorting Time: 101, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:353, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 17407, Sorting Time: 7, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 45, Repeat: 0, Waiting: 0
+, Arrive Time: 17589, Sorting Time: 24, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:340, Treasury: 1, Treasury Time: 110, Repeat: 1, Waiting: 0
+, Arrive Time: 17681, Sorting Time: 94, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:527, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 17731, Sorting Time: 19, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:883, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 17749, Sorting Time: 119, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:659, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 17784, Sorting Time: 18, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:310, Treasury: 1, Treasury Time: 110, Repeat: 0, Waiting: 0
+, Arrive Time: 17929, Sorting Time: 100, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:361, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 18552, Sorting Time: 43, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:795, Treasury: 1, Treasury Time: 113, Repeat: 0, Waiting: 0
+, Arrive Time: 18616, Sorting Time: 20, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:866, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 18702, Sorting Time: 117, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:471, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 18717, Sorting Time: 20, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 23, Repeat: 0, Waiting: 0
+, Arrive Time: 18742, Sorting Time: 20, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:410, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 18750, Sorting Time: 20, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:481, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 18761, Sorting Time: 15, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:981, Treasury: 1, Treasury Time: 76, Repeat: 0, Waiting: 0
+, Arrive Time: 18782, Sorting Time: 18, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:705, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 19060, Sorting Time: 50, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:619, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 19230, Sorting Time: 33, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:234, Treasury: 1, Treasury Time: 77, Repeat: 0, Waiting: 0
+, Arrive Time: 19426, Sorting Time: 85, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:921, Treasury: 1, Treasury Time: 93, Repeat: 1, Waiting: 0
+, Arrive Time: 19437, Sorting Time: 37, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:130, Treasury: 1, Treasury Time: 55, Repeat: 0, Waiting: 0
+, Arrive Time: 19634, Sorting Time: 47, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:373, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 19719, Sorting Time: 2, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:703, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 19734, Sorting Time: 45, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:593, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 19786, Sorting Time: 70, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:499, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 19907, Sorting Time: 105, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 116, Repeat: 0, Waiting: 0
+, Arrive Time: 19983, Sorting Time: 82, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:983, Treasury: 1, Treasury Time: 48, Repeat: 0, Waiting: 0
+, Arrive Time: 20201, Sorting Time: 5, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:587, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 20217, Sorting Time: 179, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1740, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 20300, Sorting Time: 33, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:897, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 20340, Sorting Time: 92, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 19, Repeat: 0, Waiting: 0
+, Arrive Time: 20958, Sorting Time: 40, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:1118, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 20973, Sorting Time: 119, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:877, Treasury: 1, Treasury Time: 172, Repeat: 0, Waiting: 0
+, Arrive Time: 21215, Sorting Time: 114, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:26, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 21284, Sorting Time: 83, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:447, Treasury: 1, Treasury Time: 83, Repeat: 0, Waiting: 0
+, Arrive Time: 21329, Sorting Time: 152, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 75, Repeat: 0, Waiting: 0
+, Arrive Time: 21347, Sorting Time: 25, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:257, Treasury: 1, Treasury Time: 76, Repeat: 1, Waiting: 0
+, Arrive Time: 21350, Sorting Time: 83, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1086, Treasury: 1, Treasury Time: 115, Repeat: 1, Waiting: 0
+, Arrive Time: 21478, Sorting Time: 96, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:391, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 22106, Sorting Time: 42, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:304, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 22204, Sorting Time: 23, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:616, Treasury: 1, Treasury Time: 7, Repeat: 0, Waiting: 0
+, Arrive Time: 22314, Sorting Time: 169, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:526, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 22393, Sorting Time: 49, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:502, Treasury: 1, Treasury Time: 133, Repeat: 0, Waiting: 0
+, Arrive Time: 22695, Sorting Time: 118, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:66, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 22742, Sorting Time: 28, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:836, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 22760, Sorting Time: 47, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:536, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 22896, Sorting Time: 84, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:850, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 22960, Sorting Time: 26, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:955, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 23350, Sorting Time: 50, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 79, Repeat: 0, Waiting: 0
+, Arrive Time: 23373, Sorting Time: 109, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:269, Treasury: 1, Treasury Time: 116, Repeat: 0, Waiting: 0
+, Arrive Time: 23733, Sorting Time: 56, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:625, Treasury: 1, Treasury Time: 61, Repeat: 0, Waiting: 0
+, Arrive Time: 23868, Sorting Time: 138, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1576, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 23909, Sorting Time: 62, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 59, Repeat: 0, Waiting: 0
+, Arrive Time: 24122, Sorting Time: 99, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:245, Treasury: 1, Treasury Time: 63, Repeat: 0, Waiting: 0
+, Arrive Time: 24204, Sorting Time: 50, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:353, Treasury: 1, Treasury Time: 91, Repeat: 0, Waiting: 0
+, Arrive Time: 24325, Sorting Time: 61, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:1091, Treasury: 1, Treasury Time: 116, Repeat: 0, Waiting: 0
+, Arrive Time: 24363, Sorting Time: 100, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:736, Treasury: 1, Treasury Time: 33, Repeat: 0, Waiting: 0
+, Arrive Time: 24451, Sorting Time: 58, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:735, Treasury: 1, Treasury Time: 107, Repeat: 1, Waiting: 0
+, Arrive Time: 24458, Sorting Time: 58, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:436, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 24787, Sorting Time: 123, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:771, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 25089, Sorting Time: 49, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:428, Treasury: 1, Treasury Time: 14, Repeat: 0, Waiting: 0
+, Arrive Time: 25103, Sorting Time: 86, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:161, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 25419, Sorting Time: 24, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:377, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 25932, Sorting Time: 49, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:749, Treasury: 1, Treasury Time: 68, Repeat: 1, Waiting: 0
+, Arrive Time: 26092, Sorting Time: 89, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:341, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 26136, Sorting Time: 9, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:388, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 26543, Sorting Time: 1, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:423, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 26648, Sorting Time: 33, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:390, Treasury: 1, Treasury Time: 25, Repeat: 1, Waiting: 0
+, Arrive Time: 27110, Sorting Time: 35, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:311, Treasury: 1, Treasury Time: 6, Repeat: 0, Waiting: 0
+, Arrive Time: 27300, Sorting Time: 12, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:302, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 27381, Sorting Time: 1, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:32, Treasury: 1, Treasury Time: 61, Repeat: 1, Waiting: 0
+, Arrive Time: 27433, Sorting Time: 129, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:782, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 27461, Sorting Time: 46, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:864, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+, Arrive Time: 28120, Sorting Time: 86, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:785, Treasury: 1, Treasury Time: 89, Repeat: 0, Waiting: 0
+, Arrive Time: 28514, Sorting Time: 70, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:637, Treasury: 1, Treasury Time: 12, Repeat: 1, Waiting: 0
+]
+1: 1370 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 1370
+
+1: 1386 2: 1482 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 1386
+
+1: 1961 2: 1482 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 1482
+
+1: 1961 2: 1533 3:10000000 4:10000000 5:10000000 6:10000000 7:1216 8:10000000
+Clock: 1216
+
+1: 1961 2: 1533 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:1246
+Clock: 1246
+
+1: 1961 2: 1533 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 1533
+
+1: 1961 2: 10000000 3:10000000 4:10000000 5:2139 6:10000000 7:1713 8:10000000
+Clock: 1713
+
+Client exits the system Arrive Time: 1246, Sorting Time: 112, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:180, Treasury: 0, Treasury Time: 30, Repeat: -1, Waiting: 175
+
+1: 1961 2: 10000000 3:10000000 4:10000000 5:2139 6:10000000 7:10000000 8:10000000
+Clock: 1961
+
+1: 2460 2: 1967 3:10000000 4:10000000 5:2139 6:10000000 7:10000000 8:10000000
+Clock: 1967
+
+1: 2460 2: 10000000 3:10000000 4:10000000 5:2139 6:2483 7:10000000 8:10000000
+Clock: 2139
+
+1: 2460 2: 10000000 3:10000000 4:10000000 5:10000000 6:2483 7:10000000 8:2212
+Clock: 2212
+
+Client exits the system Arrive Time: 1386, Sorting Time: 51, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:606, Treasury: 1, Treasury Time: 73, Repeat: 0, Waiting: 96
+
+1: 2460 2: 10000000 3:10000000 4:10000000 5:10000000 6:2483 7:10000000 8:10000000
+Clock: 2460
+
+1: 2631 2: 2470 3:10000000 4:10000000 5:10000000 6:2483 7:10000000 8:10000000
+Clock: 2470
+
+1: 2631 2: 10000000 3:10000000 4:10000000 5:10000000 6:2483 7:3331 8:10000000
+Clock: 2483
+
+1: 2631 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:3331 8:2495
+Clock: 2495
+
+Client exits the system Arrive Time: 1961, Sorting Time: 6, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:516, Treasury: 1, Treasury Time: 12, Repeat: 0, Waiting: 0
+
+1: 2631 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:3331 8:10000000
+Clock: 2631
+
+1: 2695 2: 2638 3:10000000 4:10000000 5:10000000 6:10000000 7:3331 8:10000000
+Clock: 2638
+
+1: 2695 2: 10000000 3:3461 4:10000000 5:10000000 6:10000000 7:3331 8:10000000
+Clock: 2695
+
+1: 2895 2: 2730 3:3461 4:10000000 5:10000000 6:10000000 7:3331 8:10000000
+Clock: 2730
+
+1: 2895 2: 10000000 3:3461 4:10000000 5:10000000 6:10000000 7:3331 8:2847
+Clock: 2847
+
+Client exits the system Arrive Time: 2695, Sorting Time: 35, Direct Treasury: 1, Priority: 1, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 117, Repeat: 0, Waiting: 0
+
+1: 2895 2: 10000000 3:3461 4:10000000 5:10000000 6:10000000 7:3331 8:10000000
+Clock: 2895
+
+1: 2919 2: 2964 3:3461 4:10000000 5:10000000 6:10000000 7:3331 8:10000000
+Clock: 2919
+
+1: 3183 2: 2964 3:3461 4:10000000 5:10000000 6:10000000 7:3331 8:10000000
+Clock: 2964
+
+1: 3183 2: 3121 3:3461 4:10000000 5:3360 6:10000000 7:3331 8:10000000
+Clock: 3121
+
+1: 3183 2: 10000000 3:3461 4:4417 5:3360 6:10000000 7:3331 8:10000000
+Clock: 3183
+
+1: 3368 2: 3229 3:3461 4:4417 5:3360 6:10000000 7:3331 8:10000000
+Clock: 3229
+
+1: 3368 2: 10000000 3:3461 4:4417 5:3360 6:10000000 7:3331 8:10000000
+Clock: 3331
+
+1: 3368 2: 10000000 3:3461 4:4417 5:3360 6:10000000 7:10000000 8:3427
+Clock: 3360
+
+1: 3368 2: 10000000 3:3461 4:4417 5:10000000 6:10000000 7:10000000 8:3427
+Clock: 3368
+
+1: 4870 2: 3448 3:3461 4:4417 5:10000000 6:10000000 7:10000000 8:3427
+Clock: 3427
+
+Client exits the system Arrive Time: 2460, Sorting Time: 10, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:861, Treasury: 1, Treasury Time: 96, Repeat: 0, Waiting: 0
+
+1: 4870 2: 3448 3:3461 4:4417 5:10000000 6:10000000 7:10000000 8:3518
+Clock: 3448
+
+1: 4870 2: 10000000 3:3461 4:4417 5:3495 6:10000000 7:10000000 8:3518
+Clock: 3461
+
+Client exits the system Arrive Time: 2631, Sorting Time: 7, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:823, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 4870 2: 10000000 3:3466 4:4417 5:3495 6:10000000 7:10000000 8:3518
+Clock: 3466
+
+Client exits the system Arrive Time: 3183, Sorting Time: 46, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:5, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 232
+
+1: 4870 2: 10000000 3:10000000 4:4417 5:3495 6:10000000 7:10000000 8:3518
+Clock: 3495
+
+Client exits the system Arrive Time: 3368, Sorting Time: 80, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:47, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 4870 2: 10000000 3:10000000 4:4417 5:10000000 6:10000000 7:10000000 8:3518
+Clock: 3518
+
+Client exits the system Arrive Time: 2895, Sorting Time: 69, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:396, Treasury: 1, Treasury Time: 91, Repeat: 0, Waiting: 67
+
+1: 4870 2: 10000000 3:10000000 4:4417 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 4417
+
+Client exits the system Arrive Time: 2919, Sorting Time: 157, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1296, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 45
+
+1: 4870 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 4870
+
+1: 5147 2: 5002 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 5002
+
+1: 5147 2: 10000000 3:10000000 4:10000000 5:5588 6:10000000 7:10000000 8:10000000
+Clock: 5147
+
+1: 5989 2: 5180 3:10000000 4:10000000 5:5588 6:10000000 7:10000000 8:10000000
+Clock: 5180
+
+1: 5989 2: 10000000 3:10000000 4:10000000 5:5588 6:5104 7:10000000 8:10000000
+Clock: 5104
+
+1: 5989 2: 10000000 3:10000000 4:10000000 5:5588 6:10000000 7:10000000 8:5156
+Clock: 5156
+
+1: 5989 2: 10000000 3:10000000 4:10000000 5:5588 6:10000000 7:10000000 8:10000000
+Clock: 5588
+
+Client exits the system Arrive Time: 4870, Sorting Time: 132, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:586, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 5989 2: 10000000 3:10000000 4:10000000 5:6018 6:10000000 7:10000000 8:10000000
+Clock: 5989
+
+1: 6466 2: 6105 3:10000000 4:10000000 5:6018 6:10000000 7:10000000 8:10000000
+Clock: 6018
+
+Client exits the system Arrive Time: 5156, Sorting Time: 33, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:430, Treasury: 0, Treasury Time: 52, Repeat: -1, Waiting: 399
+
+1: 6466 2: 6105 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 6105
+
+1: 6466 2: 10000000 3:6982 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 6466
+
+1: 7293 2: 6478 3:6982 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 6478
+
+1: 7293 2: 10000000 3:6982 4:10000000 5:10000000 6:10000000 7:6077 8:10000000
+Clock: 6077
+
+1: 7293 2: 10000000 3:6982 4:10000000 5:10000000 6:10000000 7:10000000 8:6082
+Clock: 6082
+
+1: 7293 2: 10000000 3:6982 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 6982
+
+Client exits the system Arrive Time: 5989, Sorting Time: 116, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:877, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 7293 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:7041 8:10000000
+Clock: 7041
+
+Client exits the system Arrive Time: 6082, Sorting Time: 12, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:59, Treasury: 0, Treasury Time: 5, Repeat: -1, Waiting: 888
+
+1: 7293 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 7293
+
+1: 7856 2: 7394 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 7394
+
+1: 7856 2: 10000000 3:7937 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 7856
+
+1: 8544 2: 7957 3:7937 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 7937
+
+Client exits the system Arrive Time: 7293, Sorting Time: 101, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:543, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 8544 2: 7957 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 7957
+
+1: 8544 2: 10000000 3:10000000 4:10000000 5:8131 6:10000000 7:10000000 8:10000000
+Clock: 8131
+
+Client exits the system Arrive Time: 7856, Sorting Time: 101, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:174, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 8544 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 8544
+
+1: 8579 2: 8577 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 8577
+
+1: 8579 2: 10000000 3:10000000 4:10000000 5:8754 6:10000000 7:10000000 8:10000000
+Clock: 8579
+
+1: 8821 2: 8633 3:10000000 4:10000000 5:8754 6:10000000 7:10000000 8:10000000
+Clock: 8633
+
+1: 8821 2: 10000000 3:10000000 4:10000000 5:8754 6:9198 7:10000000 8:10000000
+Clock: 8754
+
+Client exits the system Arrive Time: 8544, Sorting Time: 33, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:177, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 8821 2: 10000000 3:10000000 4:10000000 5:10000000 6:9198 7:10000000 8:10000000
+Clock: 8821
+
+1: 8941 2: 8886 3:10000000 4:10000000 5:10000000 6:9198 7:10000000 8:10000000
+Clock: 8886
+
+1: 8941 2: 10000000 3:10000000 4:10000000 5:9379 6:9198 7:10000000 8:10000000
+Clock: 8941
+
+1: 9473 2: 8999 3:10000000 4:10000000 5:9379 6:9198 7:10000000 8:10000000
+Clock: 8999
+
+1: 9473 2: 10000000 3:10000000 4:10000000 5:9379 6:9198 7:10048 8:10000000
+Clock: 9198
+
+Client exits the system Arrive Time: 8579, Sorting Time: 54, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:565, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 9473 2: 10000000 3:10000000 4:10000000 5:9379 6:10000000 7:10048 8:10000000
+Clock: 9379
+
+Client exits the system Arrive Time: 8821, Sorting Time: 65, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:493, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 9473 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10048 8:10000000
+Clock: 9473
+
+1: 9569 2: 9475 3:10000000 4:10000000 5:10000000 6:10000000 7:10048 8:10000000
+Clock: 9475
+
+1: 9569 2: 10000000 3:10000000 4:10000000 5:10090 6:10000000 7:10048 8:10000000
+Clock: 9569
+
+1: 9749 2: 9577 3:10000000 4:10000000 5:10090 6:10000000 7:10048 8:10000000
+Clock: 9577
+
+1: 9749 2: 10000000 3:10000000 4:10000000 5:10090 6:10000000 7:10048 8:9738
+Clock: 9738
+
+Client exits the system Arrive Time: 9569, Sorting Time: 8, Direct Treasury: 1, Priority: 1, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 161, Repeat: 0, Waiting: 0
+
+1: 9749 2: 10000000 3:10000000 4:10000000 5:10090 6:10000000 7:10048 8:10000000
+Clock: 9749
+
+1: 10363 2: 9852 3:10000000 4:10000000 5:10090 6:10000000 7:10048 8:10000000
+Clock: 9852
+
+1: 10363 2: 10000000 3:10000000 4:10000000 5:10090 6:10353 7:10048 8:10000000
+Clock: 10048
+
+1: 10363 2: 10000000 3:10000000 4:10000000 5:10090 6:10353 7:10000000 8:10195
+Clock: 10090
+
+Client exits the system Arrive Time: 9473, Sorting Time: 2, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:615, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 10363 2: 10000000 3:10000000 4:10000000 5:10000000 6:10353 7:10000000 8:10195
+Clock: 10195
+
+Client exits the system Arrive Time: 8941, Sorting Time: 58, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:1049, Treasury: 1, Treasury Time: 147, Repeat: 0, Waiting: 0
+
+1: 10363 2: 10000000 3:10000000 4:10000000 5:10000000 6:10353 7:10000000 8:10000000
+Clock: 10353
+
+Client exits the system Arrive Time: 9749, Sorting Time: 103, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:501, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 10363 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 10363
+
+1: 10958 2: 10462 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 10462
+
+1: 10958 2: 10000000 3:10000000 4:10000000 5:10595 6:10000000 7:10000000 8:10000000
+Clock: 10595
+
+1: 10958 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10689
+Clock: 10689
+
+Client exits the system Arrive Time: 10363, Sorting Time: 99, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:133, Treasury: 1, Treasury Time: 94, Repeat: 0, Waiting: 0
+
+1: 10958 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 10958
+
+1: 11041 2: 11032 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 11032
+
+1: 11041 2: 10000000 3:11248 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 11041
+
+1: 11047 2: 11053 3:11248 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 11047
+
+1: 11112 2: 11053 3:11248 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 11053
+
+1: 11112 2: 11104 3:11248 4:11032 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 11032
+
+1: 11112 2: 11104 3:11248 4:10000000 5:10000000 6:10000000 7:10000000 8:11155
+Clock: 11104
+
+1: 11112 2: 10000000 3:11248 4:10000000 5:10000000 6:10000000 7:11417 8:11155
+Clock: 11112
+
+1: 11242 2: 11229 3:11248 4:10000000 5:10000000 6:10000000 7:11417 8:11155
+Clock: 11155
+
+1: 11242 2: 11229 3:11248 4:10000000 5:10000000 6:10000000 7:11417 8:10000000
+Clock: 11229
+
+1: 11242 2: 10000000 3:11248 4:11252 5:10000000 6:10000000 7:11417 8:10000000
+Clock: 11242
+
+1: 11506 2: 11276 3:11248 4:11252 5:10000000 6:10000000 7:11417 8:10000000
+Clock: 11248
+
+1: 11506 2: 11276 3:10000000 4:11252 5:10000000 6:10000000 7:11417 8:11293
+Clock: 11252
+
+Client exits the system Arrive Time: 11155, Sorting Time: 12, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:23, Treasury: 0, Treasury Time: 123, Repeat: -1, Waiting: 62
+
+1: 11506 2: 11276 3:10000000 4:10000000 5:10000000 6:10000000 7:11417 8:11293
+Clock: 11276
+
+1: 11506 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:11417 8:11293
+Clock: 11293
+
+Client exits the system Arrive Time: 10958, Sorting Time: 74, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:216, Treasury: 1, Treasury Time: 45, Repeat: 0, Waiting: 0
+
+1: 11506 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:11417 8:10000000
+Clock: 11417
+
+1: 11506 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:12053 8:11423
+Clock: 11423
+
+Client exits the system Arrive Time: 11047, Sorting Time: 51, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:313, Treasury: 1, Treasury Time: 6, Repeat: 0, Waiting: 6
+
+1: 11506 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:12053 8:10000000
+Clock: 11506
+
+1: 12072 2: 11611 3:10000000 4:10000000 5:10000000 6:10000000 7:12053 8:10000000
+Clock: 11611
+
+1: 12072 2: 10000000 3:10000000 4:10000000 5:12120 6:10000000 7:12053 8:10000000
+Clock: 12053
+
+1: 12072 2: 10000000 3:10000000 4:10000000 5:12120 6:10000000 7:11687 8:12060
+Clock: 11687
+
+1: 12072 2: 10000000 3:10000000 4:10000000 5:12120 6:10000000 7:10000000 8:12060
+Clock: 12060
+
+Client exits the system Arrive Time: 11242, Sorting Time: 34, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:636, Treasury: 1, Treasury Time: 7, Repeat: 0, Waiting: 141
+
+1: 12072 2: 10000000 3:10000000 4:10000000 5:12120 6:10000000 7:10000000 8:12142
+Clock: 12072
+
+1: 12073 2: 12119 3:10000000 4:10000000 5:12120 6:10000000 7:10000000 8:12142
+Clock: 12073
+
+1: 12114 2: 12119 3:10000000 4:10000000 5:12120 6:10000000 7:10000000 8:12142
+Clock: 12114
+
+1: 12323 2: 12119 3:10000000 4:10000000 5:12120 6:10000000 7:10000000 8:12142
+Clock: 12119
+
+1: 12323 2: 12166 3:12547 4:10000000 5:12120 6:10000000 7:10000000 8:12142
+Clock: 12120
+
+1: 12323 2: 12166 3:12547 4:10000000 5:10000000 6:10000000 7:10000000 8:12142
+Clock: 12142
+
+1: 12323 2: 12166 3:12547 4:10000000 5:10000000 6:10000000 7:10000000 8:12206
+Clock: 12166
+
+1: 12323 2: 12232 3:12547 4:10000000 5:10000000 6:10000000 7:12457 8:12206
+Clock: 12206
+
+Client exits the system Arrive Time: 11506, Sorting Time: 105, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:509, Treasury: 1, Treasury Time: 64, Repeat: 0, Waiting: 22
+
+1: 12323 2: 12232 3:12547 4:13640 5:10000000 6:10000000 7:12457 8:10000000
+Clock: 12232
+
+1: 12323 2: 10000000 3:12547 4:13640 5:10000000 6:10000000 7:12457 8:12252
+Clock: 12252
+
+Client exits the system Arrive Time: 12114, Sorting Time: 66, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 20, Repeat: 0, Waiting: 52
+
+1: 12323 2: 10000000 3:12547 4:13640 5:10000000 6:10000000 7:12457 8:10000000
+Clock: 12323
+
+1: 12900 2: 12425 3:12547 4:13640 5:10000000 6:10000000 7:12457 8:10000000
+Clock: 12425
+
+1: 12900 2: 10000000 3:12547 4:13640 5:12741 6:10000000 7:12457 8:10000000
+Clock: 12457
+
+Client exits the system Arrive Time: 12142, Sorting Time: 117, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:291, Treasury: 0, Treasury Time: 82, Repeat: -1, Waiting: 540
+
+1: 12900 2: 10000000 3:12547 4:13640 5:12741 6:10000000 7:10000000 8:10000000
+Clock: 12547
+
+Client exits the system Arrive Time: 12072, Sorting Time: 47, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:428, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 12900 2: 10000000 3:10000000 4:13640 5:12741 6:10000000 7:10000000 8:10000000
+Clock: 12741
+
+1: 12900 2: 10000000 3:10000000 4:13640 5:10000000 6:10000000 7:10000000 8:12853
+Clock: 12853
+
+Client exits the system Arrive Time: 12323, Sorting Time: 102, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:316, Treasury: 1, Treasury Time: 112, Repeat: 0, Waiting: 0
+
+1: 12900 2: 10000000 3:10000000 4:13640 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 12900
+
+1: 12984 2: 12985 3:10000000 4:13640 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 12984
+
+1: 13014 2: 12985 3:10000000 4:13640 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 12985
+
+1: 13014 2: 13071 3:13147 4:13640 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 13014
+
+1: 13210 2: 13071 3:13147 4:13640 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 13071
+
+1: 13210 2: 13098 3:13147 4:13640 5:10000000 6:10000000 7:10000000 8:13104
+Clock: 13098
+
+1: 13210 2: 10000000 3:13147 4:13640 5:13660 6:10000000 7:10000000 8:13104
+Clock: 13104
+
+Client exits the system Arrive Time: 12984, Sorting Time: 86, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 33, Repeat: 0, Waiting: 1
+
+1: 13210 2: 10000000 3:13147 4:13640 5:13660 6:10000000 7:10000000 8:10000000
+Clock: 13147
+
+Client exits the system Arrive Time: 12900, Sorting Time: 85, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:162, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 13210 2: 10000000 3:10000000 4:13640 5:13660 6:10000000 7:10000000 8:10000000
+Clock: 13210
+
+1: 13237 2: 13305 3:10000000 4:13640 5:13660 6:10000000 7:10000000 8:10000000
+Clock: 13237
+
+1: 13362 2: 13305 3:10000000 4:13640 5:13660 6:10000000 7:10000000 8:10000000
+Clock: 13305
+
+1: 13362 2: 13359 3:10000000 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13359
+
+1: 13362 2: 10000000 3:10000000 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13362
+
+1: 13384 2: 13390 3:10000000 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13384
+
+1: 13517 2: 13390 3:10000000 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13390
+
+1: 13517 2: 13488 3:10000000 4:13640 5:13660 6:13959 7:10000000 8:13480
+Clock: 13480
+
+Client exits the system Arrive Time: 13362, Sorting Time: 28, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 90, Repeat: 0, Waiting: 0
+
+1: 13517 2: 13488 3:10000000 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13488
+
+1: 13517 2: 10000000 3:13850 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13517
+
+1: 13563 2: 13635 3:13850 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13563
+
+1: 14029 2: 13635 3:13850 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13635
+
+1: 14029 2: 13698 3:13850 4:13640 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13640
+
+Client exits the system Arrive Time: 12073, Sorting Time: 47, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1434, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 86
+
+1: 14029 2: 13698 3:13850 4:10000000 5:13660 6:13959 7:10000000 8:10000000
+Clock: 13660
+
+Client exits the system Arrive Time: 13014, Sorting Time: 27, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:562, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 57
+
+1: 14029 2: 13698 3:13850 4:10000000 5:14104 6:13959 7:10000000 8:10000000
+Clock: 13698
+
+1: 14029 2: 10000000 3:13850 4:10000000 5:14104 6:13959 7:14853 8:10000000
+Clock: 13850
+
+Client exits the system Arrive Time: 13384, Sorting Time: 98, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:362, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 6
+
+1: 14029 2: 10000000 3:10000000 4:10000000 5:14104 6:13959 7:14853 8:10000000
+Clock: 13959
+
+Client exits the system Arrive Time: 13210, Sorting Time: 95, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:654, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 14029 2: 10000000 3:10000000 4:10000000 5:14104 6:14228 7:14853 8:10000000
+Clock: 14029
+
+1: 14405 2: 14112 3:10000000 4:10000000 5:14104 6:14228 7:14853 8:10000000
+Clock: 14104
+
+Client exits the system Arrive Time: 13237, Sorting Time: 54, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:444, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 369
+
+1: 14405 2: 14112 3:10000000 4:10000000 5:10000000 6:14228 7:14853 8:10000000
+Clock: 14112
+
+1: 14405 2: 10000000 3:10000000 4:10000000 5:10000000 6:14228 7:14853 8:14214
+Clock: 14214
+
+Client exits the system Arrive Time: 14029, Sorting Time: 83, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 102, Repeat: 0, Waiting: 0
+
+1: 14405 2: 10000000 3:10000000 4:10000000 5:10000000 6:14228 7:14853 8:10000000
+Clock: 14228
+
+Client exits the system Arrive Time: 13517, Sorting Time: 118, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:269, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 324
+
+1: 14405 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:14853 8:10000000
+Clock: 14405
+
+1: 14443 2: 14562 3:10000000 4:10000000 5:10000000 6:10000000 7:14853 8:10000000
+Clock: 14443
+
+1: 14504 2: 14562 3:10000000 4:10000000 5:10000000 6:10000000 7:14853 8:10000000
+Clock: 14504
+
+1: 14539 2: 14562 3:10000000 4:10000000 5:10000000 6:10000000 7:14853 8:10000000
+Clock: 14539
+
+1: 14606 2: 14562 3:10000000 4:10000000 5:10000000 6:10000000 7:14853 8:10000000
+Clock: 14562
+
+1: 14606 2: 14586 3:10000000 4:10000000 5:15257 6:10000000 7:14853 8:10000000
+Clock: 14586
+
+1: 14606 2: 14631 3:10000000 4:10000000 5:15257 6:10000000 7:14853 8:14596
+Clock: 14596
+
+Client exits the system Arrive Time: 14443, Sorting Time: 24, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 10, Repeat: 0, Waiting: 119
+
+1: 14606 2: 14631 3:10000000 4:10000000 5:15257 6:10000000 7:14853 8:10000000
+Clock: 14606
+
+1: 14939 2: 14631 3:10000000 4:10000000 5:15257 6:10000000 7:14853 8:10000000
+Clock: 14631
+
+1: 14939 2: 14710 3:10000000 4:10000000 5:15257 6:15348 7:14853 8:10000000
+Clock: 14710
+
+1: 14939 2: 14828 3:10000000 4:10000000 5:15257 6:15348 7:14853 8:10000000
+Clock: 14828
+
+1: 14939 2: 10000000 3:10000000 4:10000000 5:15257 6:15348 7:14853 8:10000000
+Clock: 14853
+
+Client exits the system Arrive Time: 13563, Sorting Time: 63, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:1155, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 72
+
+1: 14939 2: 10000000 3:10000000 4:10000000 5:15257 6:15348 7:15534 8:10000000
+Clock: 14939
+
+1: 15262 2: 14981 3:10000000 4:10000000 5:15257 6:15348 7:15534 8:10000000
+Clock: 14981
+
+1: 15262 2: 10000000 3:16731 4:10000000 5:15257 6:15348 7:15534 8:10000000
+Clock: 15257
+
+Client exits the system Arrive Time: 14405, Sorting Time: 157, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:695, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 15262 2: 10000000 3:16731 4:10000000 5:15526 6:15348 7:15534 8:10000000
+Clock: 15262
+
+1: 15397 2: 15288 3:16731 4:10000000 5:15526 6:15348 7:15534 8:10000000
+Clock: 15288
+
+1: 15397 2: 10000000 3:16731 4:15973 5:15526 6:15348 7:15534 8:10000000
+Clock: 15348
+
+1: 15397 2: 10000000 3:16731 4:15973 5:15526 6:10000000 7:15534 8:15373
+Clock: 15373
+
+Client exits the system Arrive Time: 14504, Sorting Time: 45, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:717, Treasury: 1, Treasury Time: 25, Repeat: 0, Waiting: 82
+
+1: 15397 2: 10000000 3:16731 4:15973 5:15526 6:10000000 7:15534 8:10000000
+Clock: 15397
+
+1: 15444 2: 15440 3:16731 4:15973 5:15526 6:10000000 7:15534 8:10000000
+Clock: 15440
+
+1: 15444 2: 10000000 3:16731 4:15973 5:15526 6:10000000 7:15534 8:15562
+Clock: 15444
+
+1: 15531 2: 15476 3:16731 4:15973 5:15526 6:10000000 7:15534 8:15562
+Clock: 15476
+
+1: 15531 2: 10000000 3:16731 4:15973 5:15526 6:10000000 7:15534 8:15562
+Clock: 15526
+
+Client exits the system Arrive Time: 14539, Sorting Time: 79, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:269, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 639
+
+1: 15531 2: 10000000 3:16731 4:15973 5:10000000 6:10000000 7:15534 8:15562
+Clock: 15531
+
+1: 15962 2: 15627 3:16731 4:15973 5:10000000 6:10000000 7:15534 8:15562
+Clock: 15534
+
+1: 15962 2: 15627 3:16731 4:15973 5:10000000 6:10000000 7:10000000 8:15562
+Clock: 15562
+
+Client exits the system Arrive Time: 15397, Sorting Time: 43, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 122, Repeat: 0, Waiting: 0
+
+1: 15962 2: 15627 3:16731 4:15973 5:10000000 6:10000000 7:10000000 8:15573
+Clock: 15573
+
+Client exits the system Arrive Time: 15444, Sorting Time: 32, Direct Treasury: 1, Priority: 1, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 11, Repeat: 0, Waiting: 86
+
+1: 15962 2: 15627 3:16731 4:15973 5:10000000 6:10000000 7:10000000 8:15653
+Clock: 15627
+
+1: 15962 2: 10000000 3:16731 4:15973 5:15878 6:10000000 7:10000000 8:15653
+Clock: 15653
+
+Client exits the system Arrive Time: 14606, Sorting Time: 118, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:681, Treasury: 1, Treasury Time: 80, Repeat: 0, Waiting: 168
+
+1: 15962 2: 10000000 3:16731 4:15973 5:15878 6:10000000 7:10000000 8:10000000
+Clock: 15878
+
+Client exits the system Arrive Time: 15531, Sorting Time: 96, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:251, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 15962 2: 10000000 3:16731 4:15973 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 15962
+
+1: 15987 2: 16079 3:16731 4:15973 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 15973
+
+Client exits the system Arrive Time: 15262, Sorting Time: 26, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:685, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 15987 2: 16079 3:16731 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 15987
+
+1: 16198 2: 16079 3:16731 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 16079
+
+1: 16198 2: 16132 3:16731 4:16453 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 16132
+
+1: 16198 2: 10000000 3:16731 4:16453 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16198
+
+1: 16252 2: 16278 3:16731 4:16453 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16252
+
+1: 16381 2: 16278 3:16731 4:16453 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16278
+
+1: 16381 2: 16383 3:16731 4:16453 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16381
+
+1: 16434 2: 16383 3:16731 4:16453 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16383
+
+1: 16434 2: 16478 3:16731 4:16453 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16434
+
+1: 16683 2: 16478 3:16731 4:16453 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16453
+
+Client exits the system Arrive Time: 15962, Sorting Time: 117, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:374, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 16683 2: 16478 3:16731 4:16637 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16478
+
+1: 16683 2: 16507 3:16731 4:16637 5:10000000 6:10000000 7:16889 8:10000000
+Clock: 16507
+
+1: 16683 2: 10000000 3:16731 4:16637 5:17030 6:10000000 7:16889 8:10000000
+Clock: 16637
+
+Client exits the system Arrive Time: 16198, Sorting Time: 80, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:184, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 175
+
+1: 16683 2: 10000000 3:16731 4:16817 5:17030 6:10000000 7:16889 8:10000000
+Clock: 16683
+
+1: 16865 2: 16708 3:16731 4:16817 5:17030 6:10000000 7:16889 8:10000000
+Clock: 16708
+
+1: 16865 2: 10000000 3:16731 4:16817 5:17030 6:16744 7:16889 8:10000000
+Clock: 16731
+
+Client exits the system Arrive Time: 14939, Sorting Time: 42, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1750, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 16865 2: 10000000 3:10000000 4:16817 5:17030 6:16744 7:16889 8:10000000
+Clock: 16744
+
+Client exits the system Arrive Time: 16683, Sorting Time: 25, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:36, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 16865 2: 10000000 3:10000000 4:16817 5:17030 6:10000000 7:16889 8:10000000
+Clock: 16817
+
+Client exits the system Arrive Time: 16381, Sorting Time: 95, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:180, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 161
+
+1: 16865 2: 10000000 3:10000000 4:10000000 5:17030 6:10000000 7:16889 8:10000000
+Clock: 16865
+
+1: 16913 2: 16906 3:10000000 4:10000000 5:17030 6:10000000 7:16889 8:10000000
+Clock: 16889
+
+Client exits the system Arrive Time: 15987, Sorting Time: 53, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:757, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 92
+
+1: 16913 2: 16906 3:10000000 4:10000000 5:17030 6:10000000 7:16851 8:10000000
+Clock: 16851
+
+1: 16913 2: 16906 3:10000000 4:10000000 5:17030 6:10000000 7:10000000 8:16980
+Clock: 16906
+
+1: 16913 2: 10000000 3:10000000 4:10000000 5:17030 6:17427 7:10000000 8:16980
+Clock: 16913
+
+1: 17055 2: 16926 3:10000000 4:10000000 5:17030 6:17427 7:10000000 8:16980
+Clock: 16926
+
+1: 17055 2: 10000000 3:10000000 4:10000000 5:17030 6:17427 7:10000000 8:16980
+Clock: 16980
+
+1: 17055 2: 10000000 3:10000000 4:10000000 5:17030 6:17427 7:10000000 8:10000000
+Clock: 17030
+
+Client exits the system Arrive Time: 16434, Sorting Time: 29, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:523, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 44
+
+1: 17055 2: 10000000 3:10000000 4:10000000 5:10000000 6:17427 7:17566 8:10000000
+Clock: 17055
+
+1: 17135 2: 17123 3:10000000 4:10000000 5:17740 6:17427 7:17566 8:10000000
+Clock: 17123
+
+1: 17135 2: 10000000 3:17834 4:10000000 5:17740 6:17427 7:17566 8:10000000
+Clock: 17135
+
+1: 17161 2: 17183 3:17834 4:10000000 5:17740 6:17427 7:17566 8:10000000
+Clock: 17161
+
+1: 17407 2: 17183 3:17834 4:10000000 5:17740 6:17427 7:17566 8:10000000
+Clock: 17183
+
+1: 17407 2: 17284 3:17834 4:10000000 5:17740 6:17427 7:17566 8:17289
+Clock: 17284
+
+1: 17407 2: 10000000 3:17834 4:17637 5:17740 6:17427 7:17566 8:17289
+Clock: 17289
+
+Client exits the system Arrive Time: 17135, Sorting Time: 48, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 106, Repeat: 0, Waiting: 0
+
+1: 17407 2: 10000000 3:17834 4:17637 5:17740 6:17427 7:17566 8:10000000
+Clock: 17407
+
+1: 17589 2: 17414 3:17834 4:17637 5:17740 6:17427 7:17566 8:10000000
+Clock: 17414
+
+1: 17589 2: 10000000 3:17834 4:17637 5:17740 6:17427 7:17566 8:17459
+Clock: 17427
+
+Client exits the system Arrive Time: 16865, Sorting Time: 41, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:521, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 17589 2: 10000000 3:17834 4:17637 5:17740 6:10000000 7:17566 8:17459
+Clock: 17459
+
+Client exits the system Arrive Time: 17407, Sorting Time: 7, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 45, Repeat: 0, Waiting: 0
+
+1: 17589 2: 10000000 3:17834 4:17637 5:17740 6:10000000 7:17566 8:10000000
+Clock: 17566
+
+Client exits the system Arrive Time: 16980, Sorting Time: 105, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:536, Treasury: 0, Treasury Time: 129, Repeat: -1, Waiting: -42
+
+1: 17589 2: 10000000 3:17834 4:17637 5:17740 6:10000000 7:10000000 8:10000000
+Clock: 17589
+
+1: 17681 2: 17613 3:17834 4:17637 5:17740 6:10000000 7:10000000 8:10000000
+Clock: 17613
+
+1: 17681 2: 10000000 3:17834 4:17637 5:17740 6:17456 7:10000000 8:10000000
+Clock: 17456
+
+1: 17681 2: 10000000 3:17834 4:17637 5:17740 6:10000000 7:10000000 8:17566
+Clock: 17566
+
+1: 17681 2: 10000000 3:17834 4:17637 5:17740 6:10000000 7:10000000 8:10000000
+Clock: 17637
+
+Client exits the system Arrive Time: 17161, Sorting Time: 101, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:353, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 22
+
+1: 17681 2: 10000000 3:17834 4:10000000 5:17740 6:17820 7:10000000 8:10000000
+Clock: 17681
+
+1: 17731 2: 17775 3:17834 4:10000000 5:17740 6:17820 7:10000000 8:10000000
+Clock: 17731
+
+1: 17749 2: 17775 3:17834 4:10000000 5:17740 6:17820 7:10000000 8:10000000
+Clock: 17740
+
+Client exits the system Arrive Time: 16913, Sorting Time: 13, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:685, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 129
+
+1: 17749 2: 17775 3:17834 4:10000000 5:10000000 6:17820 7:10000000 8:10000000
+Clock: 17749
+
+1: 17784 2: 17775 3:17834 4:10000000 5:10000000 6:17820 7:10000000 8:10000000
+Clock: 17775
+
+1: 17784 2: 17794 3:17834 4:10000000 5:18302 6:17820 7:10000000 8:10000000
+Clock: 17784
+
+1: 17929 2: 17794 3:17834 4:10000000 5:18302 6:17820 7:10000000 8:10000000
+Clock: 17794
+
+1: 17929 2: 17913 3:17834 4:18677 5:18302 6:17820 7:10000000 8:10000000
+Clock: 17820
+
+Client exits the system Arrive Time: 17566, Sorting Time: 24, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:183, Treasury: 0, Treasury Time: 110, Repeat: -1, Waiting: 47
+
+1: 17929 2: 17913 3:17834 4:18677 5:18302 6:10000000 7:10000000 8:10000000
+Clock: 17834
+
+1: 17929 2: 17913 3:10000000 4:18677 5:18302 6:10000000 7:10000000 8:17863
+Clock: 17863
+
+Client exits the system Arrive Time: 17055, Sorting Time: 68, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:711, Treasury: 1, Treasury Time: 29, Repeat: 0, Waiting: 0
+
+1: 17929 2: 17913 3:10000000 4:18677 5:18302 6:10000000 7:10000000 8:10000000
+Clock: 17913
+
+1: 17929 2: 17931 3:18572 4:18677 5:18302 6:10000000 7:10000000 8:10000000
+Clock: 17929
+
+1: 18552 2: 17931 3:18572 4:18677 5:18302 6:10000000 7:10000000 8:10000000
+Clock: 17931
+
+1: 18552 2: 18031 3:18572 4:18677 5:18302 6:10000000 7:18241 8:10000000
+Clock: 18031
+
+1: 18552 2: 10000000 3:18572 4:18677 5:18302 6:18392 7:18241 8:10000000
+Clock: 18241
+
+1: 18552 2: 10000000 3:18572 4:18677 5:18302 6:18392 7:10000000 8:18351
+Clock: 18302
+
+Client exits the system Arrive Time: 17681, Sorting Time: 94, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:527, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 18552 2: 10000000 3:18572 4:18677 5:10000000 6:18392 7:10000000 8:18351
+Clock: 18351
+
+Client exits the system Arrive Time: 17784, Sorting Time: 18, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:310, Treasury: 1, Treasury Time: 110, Repeat: 0, Waiting: 129
+
+1: 18552 2: 10000000 3:18572 4:18677 5:10000000 6:18392 7:10000000 8:10000000
+Clock: 18392
+
+Client exits the system Arrive Time: 17929, Sorting Time: 100, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:361, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 2
+
+1: 18552 2: 10000000 3:18572 4:18677 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 18552
+
+1: 18616 2: 18595 3:18572 4:18677 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 18572
+
+Client exits the system Arrive Time: 17749, Sorting Time: 119, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:659, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 45
+
+1: 18616 2: 18595 3:10000000 4:18677 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 18595
+
+1: 18616 2: 10000000 3:10000000 4:18677 5:10000000 6:10000000 7:19390 8:10000000
+Clock: 18616
+
+1: 18702 2: 18636 3:10000000 4:18677 5:10000000 6:10000000 7:19390 8:10000000
+Clock: 18636
+
+1: 18702 2: 10000000 3:10000000 4:18677 5:19502 6:10000000 7:19390 8:10000000
+Clock: 18677
+
+Client exits the system Arrive Time: 17731, Sorting Time: 19, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:883, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 44
+
+1: 18702 2: 10000000 3:10000000 4:10000000 5:19502 6:10000000 7:19390 8:10000000
+Clock: 18702
+
+1: 18717 2: 18819 3:10000000 4:10000000 5:19502 6:10000000 7:19390 8:10000000
+Clock: 18717
+
+1: 18742 2: 18819 3:10000000 4:10000000 5:19502 6:10000000 7:19390 8:10000000
+Clock: 18742
+
+1: 18750 2: 18819 3:10000000 4:10000000 5:19502 6:10000000 7:19390 8:10000000
+Clock: 18750
+
+1: 18761 2: 18819 3:10000000 4:10000000 5:19502 6:10000000 7:19390 8:10000000
+Clock: 18761
+
+1: 18782 2: 18819 3:10000000 4:10000000 5:19502 6:10000000 7:19390 8:10000000
+Clock: 18782
+
+1: 19060 2: 18819 3:10000000 4:10000000 5:19502 6:10000000 7:19390 8:10000000
+Clock: 18819
+
+1: 19060 2: 18839 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 18839
+
+1: 19060 2: 18859 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:18862
+Clock: 18859
+
+1: 19060 2: 18879 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:18862
+Clock: 18862
+
+Client exits the system Arrive Time: 18717, Sorting Time: 20, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 23, Repeat: 0, Waiting: 102
+
+1: 19060 2: 18879 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 18879
+
+1: 19060 2: 18894 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 18894
+
+1: 19060 2: 18912 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 18912
+
+1: 19060 2: 10000000 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 19060
+
+1: 19230 2: 19110 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 19110
+
+1: 19230 2: 10000000 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 19230
+
+1: 19426 2: 19263 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 19263
+
+1: 19426 2: 10000000 3:10000000 4:10000000 5:19502 6:19290 7:19390 8:10000000
+Clock: 19290
+
+Client exits the system Arrive Time: 18702, Sorting Time: 117, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:471, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 19426 2: 10000000 3:10000000 4:10000000 5:19502 6:19524 7:19390 8:10000000
+Clock: 19390
+
+1: 19426 2: 10000000 3:10000000 4:10000000 5:19502 6:19524 7:20371 8:19503
+Clock: 19426
+
+1: 19437 2: 19511 3:10000000 4:10000000 5:19502 6:19524 7:20371 8:19503
+Clock: 19437
+
+1: 19634 2: 19511 3:10000000 4:10000000 5:19502 6:19524 7:20371 8:19503
+Clock: 19502
+
+Client exits the system Arrive Time: 18616, Sorting Time: 20, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:866, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 19634 2: 19511 3:10000000 4:10000000 5:19912 6:19524 7:20371 8:19503
+Clock: 19503
+
+Client exits the system Arrive Time: 18552, Sorting Time: 43, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:795, Treasury: 1, Treasury Time: 113, Repeat: 0, Waiting: 0
+
+1: 19634 2: 19511 3:10000000 4:10000000 5:19912 6:19524 7:20371 8:10000000
+Clock: 19511
+
+1: 19634 2: 19548 3:10000000 4:10000000 5:19912 6:19524 7:20371 8:10000000
+Clock: 19524
+
+1: 19634 2: 19548 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:19601
+Clock: 19548
+
+1: 19634 2: 10000000 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:19601
+Clock: 19601
+
+Client exits the system Arrive Time: 19230, Sorting Time: 33, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:234, Treasury: 1, Treasury Time: 77, Repeat: 0, Waiting: 27
+
+1: 19634 2: 10000000 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19634
+
+1: 19719 2: 19681 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19681
+
+1: 19719 2: 10000000 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19719
+
+1: 19734 2: 19721 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19721
+
+1: 19734 2: 10000000 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19734
+
+1: 19786 2: 19779 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19779
+
+1: 19786 2: 10000000 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19786
+
+1: 19907 2: 19856 3:10000000 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19856
+
+1: 19907 2: 10000000 3:20355 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19907
+
+1: 19983 2: 20012 3:20355 4:10000000 5:19912 6:20005 7:20371 8:10000000
+Clock: 19912
+
+Client exits the system Arrive Time: 18742, Sorting Time: 20, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:410, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 740
+
+1: 19983 2: 20012 3:20355 4:10000000 5:20042 6:20005 7:20371 8:10000000
+Clock: 19983
+
+1: 20201 2: 20012 3:20355 4:10000000 5:20042 6:20005 7:20371 8:10000000
+Clock: 20005
+
+Client exits the system Arrive Time: 18750, Sorting Time: 20, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:481, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 754
+
+1: 20201 2: 20012 3:20355 4:10000000 5:20042 6:20708 7:20371 8:10000000
+Clock: 20012
+
+1: 20201 2: 20094 3:20355 4:10000000 5:20042 6:20708 7:20371 8:20128
+Clock: 20042
+
+1: 20201 2: 20094 3:20355 4:10000000 5:20635 6:20708 7:20371 8:20128
+Clock: 20094
+
+1: 20201 2: 10000000 3:20355 4:21077 5:20635 6:20708 7:20371 8:20128
+Clock: 20128
+
+Client exits the system Arrive Time: 19907, Sorting Time: 105, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 116, Repeat: 0, Waiting: 0
+
+1: 20201 2: 10000000 3:20355 4:21077 5:20635 6:20708 7:20371 8:20183
+Clock: 20183
+
+Client exits the system Arrive Time: 19437, Sorting Time: 37, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:130, Treasury: 1, Treasury Time: 55, Repeat: 0, Waiting: 524
+
+1: 20201 2: 10000000 3:20355 4:21077 5:20635 6:20708 7:20371 8:10000000
+Clock: 20201
+
+1: 20217 2: 20206 3:20355 4:21077 5:20635 6:20708 7:20371 8:10000000
+Clock: 20206
+
+1: 20217 2: 10000000 3:20355 4:21077 5:20635 6:20708 7:20371 8:10000000
+Clock: 20217
+
+1: 20300 2: 20396 3:20355 4:21077 5:20635 6:20708 7:20371 8:10000000
+Clock: 20300
+
+1: 20340 2: 20396 3:20355 4:21077 5:20635 6:20708 7:20371 8:10000000
+Clock: 20340
+
+1: 20958 2: 20396 3:20355 4:21077 5:20635 6:20708 7:20371 8:10000000
+Clock: 20355
+
+Client exits the system Arrive Time: 19786, Sorting Time: 70, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:499, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 20958 2: 20396 3:20942 4:21077 5:20635 6:20708 7:20371 8:10000000
+Clock: 20371
+
+1: 20958 2: 20396 3:20942 4:21077 5:20635 6:20708 7:21076 8:20447
+Clock: 20396
+
+1: 20958 2: 20429 3:20942 4:21077 5:20635 6:20708 7:21076 8:20447
+Clock: 20429
+
+1: 20958 2: 20521 3:20942 4:21077 5:20635 6:20708 7:21076 8:20447
+Clock: 20447
+
+Client exits the system Arrive Time: 18761, Sorting Time: 15, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:981, Treasury: 1, Treasury Time: 76, Repeat: 0, Waiting: 614
+
+1: 20958 2: 20521 3:20942 4:21077 5:20635 6:20708 7:21076 8:10000000
+Clock: 20521
+
+1: 20958 2: 10000000 3:20942 4:21077 5:20635 6:20708 7:21076 8:20540
+Clock: 20540
+
+Client exits the system Arrive Time: 20340, Sorting Time: 92, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 19, Repeat: 0, Waiting: 89
+
+1: 20958 2: 10000000 3:20942 4:21077 5:20635 6:20708 7:21076 8:10000000
+Clock: 20635
+
+Client exits the system Arrive Time: 19734, Sorting Time: 45, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:593, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 263
+
+1: 20958 2: 10000000 3:20942 4:21077 5:21532 6:20708 7:21076 8:10000000
+Clock: 20708
+
+Client exits the system Arrive Time: 19719, Sorting Time: 2, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:703, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 284
+
+1: 20958 2: 10000000 3:20942 4:21077 5:21532 6:10000000 7:21076 8:10000000
+Clock: 20942
+
+Client exits the system Arrive Time: 20201, Sorting Time: 5, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:587, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 149
+
+1: 20958 2: 10000000 3:22682 4:21077 5:21532 6:10000000 7:21076 8:10000000
+Clock: 20958
+
+1: 20973 2: 20998 3:22682 4:21077 5:21532 6:10000000 7:21076 8:10000000
+Clock: 20973
+
+1: 21215 2: 20998 3:22682 4:21077 5:21532 6:10000000 7:21076 8:10000000
+Clock: 20998
+
+1: 21215 2: 21117 3:22682 4:21077 5:21532 6:10000000 7:21076 8:10000000
+Clock: 21076
+
+Client exits the system Arrive Time: 18782, Sorting Time: 18, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:705, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 1571
+
+1: 21215 2: 21117 3:22682 4:21077 5:21532 6:10000000 7:21695 8:10000000
+Clock: 21077
+
+1: 21215 2: 21117 3:22682 4:10000000 5:21532 6:10000000 7:21695 8:21125
+Clock: 21117
+
+1: 21215 2: 10000000 3:22682 4:10000000 5:21532 6:10000000 7:21695 8:21125
+Clock: 21125
+
+Client exits the system Arrive Time: 19983, Sorting Time: 82, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:983, Treasury: 1, Treasury Time: 48, Repeat: 0, Waiting: 29
+
+1: 21215 2: 10000000 3:22682 4:10000000 5:21532 6:10000000 7:21695 8:10000000
+Clock: 21215
+
+1: 21284 2: 21329 3:22682 4:10000000 5:21532 6:10000000 7:21695 8:10000000
+Clock: 21284
+
+1: 21329 2: 21329 3:22682 4:10000000 5:21532 6:10000000 7:21695 8:10000000
+Clock: 21329
+
+1: 21347 2: 21412 3:22682 4:10000000 5:21532 6:21355 7:21695 8:10000000
+Clock: 21347
+
+1: 21350 2: 21412 3:22682 4:10000000 5:21532 6:21355 7:21695 8:10000000
+Clock: 21350
+
+1: 21478 2: 21412 3:22682 4:10000000 5:21532 6:21355 7:21695 8:10000000
+Clock: 21355
+
+Client exits the system Arrive Time: 21215, Sorting Time: 114, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:26, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 21478 2: 21412 3:22682 4:10000000 5:21532 6:10000000 7:21695 8:10000000
+Clock: 21412
+
+1: 21478 2: 21564 3:22682 4:10000000 5:21532 6:21859 7:21695 8:10000000
+Clock: 21478
+
+1: 22106 2: 21564 3:22682 4:10000000 5:21532 6:21859 7:21695 8:10000000
+Clock: 21532
+
+Client exits the system Arrive Time: 20300, Sorting Time: 33, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:897, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 302
+
+1: 22106 2: 21564 3:22682 4:10000000 5:10000000 6:21859 7:21695 8:10000000
+Clock: 21564
+
+1: 22106 2: 21589 3:22682 4:10000000 5:10000000 6:21859 7:21695 8:21639
+Clock: 21589
+
+1: 22106 2: 21672 3:22682 4:10000000 5:21414 6:21859 7:21695 8:21639
+Clock: 21414
+
+1: 22106 2: 21672 3:22682 4:10000000 5:10000000 6:21859 7:21695 8:21639
+Clock: 21639
+
+Client exits the system Arrive Time: 21329, Sorting Time: 152, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 75, Repeat: 0, Waiting: 83
+
+1: 22106 2: 21672 3:22682 4:10000000 5:10000000 6:21859 7:21695 8:21715
+Clock: 21672
+
+1: 22106 2: 21768 3:22682 4:20627 5:10000000 6:21859 7:21695 8:21715
+Clock: 20627
+
+1: 22106 2: 21768 3:22682 4:10000000 5:10000000 6:21859 7:21695 8:21715
+Clock: 21695
+
+Client exits the system Arrive Time: 19060, Sorting Time: 50, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:619, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 1966
+
+1: 22106 2: 21768 3:22682 4:10000000 5:10000000 6:21859 7:21311 8:21715
+Clock: 21311
+
+1: 22106 2: 21768 3:22682 4:10000000 5:10000000 6:21859 7:21684 8:21715
+Clock: 21684
+
+Client exits the system Arrive Time: 19634, Sorting Time: 47, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:373, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 1630
+
+1: 22106 2: 21768 3:22682 4:10000000 5:10000000 6:21859 7:22802 8:21715
+Clock: 21715
+
+1: 22106 2: 21768 3:22682 4:10000000 5:10000000 6:21859 7:22802 8:21830
+Clock: 21768
+
+1: 22106 2: 10000000 3:22682 4:10000000 5:22159 6:21859 7:22802 8:21830
+Clock: 21830
+
+1: 22106 2: 10000000 3:22682 4:10000000 5:22159 6:21859 7:22802 8:21923
+Clock: 21859
+
+1: 22106 2: 10000000 3:22682 4:21900 5:22159 6:21941 7:22802 8:21923
+Clock: 21900
+
+Client exits the system Arrive Time: 21830, Sorting Time: 83, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:41, Treasury: 0, Treasury Time: 115, Repeat: -1, Waiting: 241
+
+1: 22106 2: 10000000 3:22682 4:10000000 5:22159 6:21941 7:22802 8:21923
+Clock: 21923
+
+1: 22106 2: 10000000 3:22682 4:10000000 5:22159 6:21941 7:22802 8:22006
+Clock: 21941
+
+Client exits the system Arrive Time: 21715, Sorting Time: 25, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:82, Treasury: 0, Treasury Time: 76, Repeat: -1, Waiting: 185
+
+1: 22106 2: 10000000 3:22682 4:10000000 5:22159 6:10000000 7:22802 8:22006
+Clock: 22006
+
+Client exits the system Arrive Time: 21284, Sorting Time: 83, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:447, Treasury: 1, Treasury Time: 83, Repeat: 0, Waiting: 109
+
+1: 22106 2: 10000000 3:22682 4:10000000 5:22159 6:10000000 7:22802 8:10000000
+Clock: 22106
+
+1: 22204 2: 22148 3:22682 4:10000000 5:22159 6:10000000 7:22802 8:10000000
+Clock: 22148
+
+1: 22204 2: 10000000 3:22682 4:10000000 5:22159 6:10000000 7:22802 8:10000000
+Clock: 22159
+
+Client exits the system Arrive Time: 21478, Sorting Time: 96, Direct Treasury: 0, Priority: 1, Desk: B, Desk Time:391, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 194
+
+1: 22204 2: 10000000 3:22682 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22204
+
+1: 22314 2: 22227 3:22682 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22227
+
+1: 22314 2: 10000000 3:22682 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22314
+
+1: 22393 2: 22483 3:22682 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22393
+
+1: 22695 2: 22483 3:22682 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22483
+
+1: 22695 2: 22532 3:22682 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22532
+
+1: 22695 2: 10000000 3:22682 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22682
+
+Client exits the system Arrive Time: 20217, Sorting Time: 179, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1740, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 546
+
+1: 22695 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22695
+
+1: 22742 2: 22813 3:10000000 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22742
+
+1: 22760 2: 22813 3:10000000 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22760
+
+1: 22896 2: 22813 3:10000000 4:10000000 5:10000000 6:10000000 7:22802 8:10000000
+Clock: 22802
+
+Client exits the system Arrive Time: 20958, Sorting Time: 40, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:1118, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 686
+
+1: 22896 2: 22813 3:10000000 4:10000000 5:10000000 6:10000000 7:23339 8:10000000
+Clock: 22813
+
+1: 22896 2: 22841 3:22879 4:10000000 5:23117 6:23429 7:23339 8:10000000
+Clock: 22841
+
+1: 22896 2: 22888 3:22879 4:23677 5:23117 6:23429 7:23339 8:10000000
+Clock: 22879
+
+Client exits the system Arrive Time: 22695, Sorting Time: 118, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:66, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 22896 2: 22888 3:10000000 4:23677 5:23117 6:23429 7:23339 8:10000000
+Clock: 22888
+
+1: 22896 2: 10000000 3:10000000 4:23677 5:23117 6:23429 7:23339 8:10000000
+Clock: 22896
+
+1: 22960 2: 22980 3:10000000 4:23677 5:23117 6:23429 7:23339 8:10000000
+Clock: 22960
+
+1: 23350 2: 22980 3:10000000 4:23677 5:23117 6:23429 7:23339 8:10000000
+Clock: 22980
+
+1: 23350 2: 23006 3:23830 4:23677 5:23117 6:23429 7:23339 8:10000000
+Clock: 23006
+
+1: 23350 2: 10000000 3:23830 4:23677 5:23117 6:23429 7:23339 8:10000000
+Clock: 23117
+
+Client exits the system Arrive Time: 22106, Sorting Time: 42, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:304, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 665
+
+1: 23350 2: 10000000 3:23830 4:23677 5:23619 6:23429 7:23339 8:10000000
+Clock: 23339
+
+Client exits the system Arrive Time: 21923, Sorting Time: 85, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:537, Treasury: 0, Treasury Time: 93, Repeat: -1, Waiting: 1782
+
+1: 23350 2: 10000000 3:23830 4:23677 5:23619 6:23429 7:24216 8:10000000
+Clock: 23350
+
+1: 23373 2: 23400 3:23830 4:23677 5:23619 6:23429 7:24216 8:10000000
+Clock: 23373
+
+1: 23733 2: 23400 3:23830 4:23677 5:23619 6:23429 7:24216 8:10000000
+Clock: 23400
+
+1: 23733 2: 23509 3:23830 4:23677 5:23619 6:23429 7:24216 8:23479
+Clock: 23429
+
+1: 23733 2: 23509 3:23830 4:23677 5:23619 6:23965 7:24216 8:23479
+Clock: 23479
+
+Client exits the system Arrive Time: 23350, Sorting Time: 50, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 79, Repeat: 0, Waiting: 0
+
+1: 23733 2: 23509 3:23830 4:23677 5:23619 6:23965 7:24216 8:23486
+Clock: 23486
+
+Client exits the system Arrive Time: 22204, Sorting Time: 23, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:616, Treasury: 1, Treasury Time: 7, Repeat: 0, Waiting: 636
+
+1: 23733 2: 23509 3:23830 4:23677 5:23619 6:23965 7:24216 8:10000000
+Clock: 23509
+
+1: 23733 2: 10000000 3:23830 4:23677 5:23619 6:23965 7:24216 8:10000000
+Clock: 23619
+
+1: 23733 2: 10000000 3:23830 4:23677 5:24574 6:23965 7:24216 8:23752
+Clock: 23677
+
+Client exits the system Arrive Time: 22742, Sorting Time: 28, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:836, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 71
+
+1: 23733 2: 10000000 3:23830 4:10000000 5:24574 6:23965 7:24216 8:23752
+Clock: 23733
+
+1: 23868 2: 23789 3:23830 4:10000000 5:24574 6:23965 7:24216 8:23752
+Clock: 23752
+
+Client exits the system Arrive Time: 22393, Sorting Time: 49, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:502, Treasury: 1, Treasury Time: 133, Repeat: 0, Waiting: 675
+
+1: 23868 2: 23789 3:23830 4:10000000 5:24574 6:23965 7:24216 8:10000000
+Clock: 23789
+
+1: 23868 2: 10000000 3:23830 4:10000000 5:24574 6:23965 7:24216 8:10000000
+Clock: 23830
+
+Client exits the system Arrive Time: 22896, Sorting Time: 84, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:850, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 23868 2: 10000000 3:10000000 4:10000000 5:24574 6:23965 7:24216 8:10000000
+Clock: 23868
+
+1: 23909 2: 24006 3:10000000 4:10000000 5:24574 6:23965 7:24216 8:10000000
+Clock: 23909
+
+1: 24122 2: 24006 3:10000000 4:10000000 5:24574 6:23965 7:24216 8:10000000
+Clock: 23965
+
+Client exits the system Arrive Time: 22760, Sorting Time: 47, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:536, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 622
+
+1: 24122 2: 24006 3:10000000 4:10000000 5:24574 6:24234 7:24216 8:10000000
+Clock: 24006
+
+1: 24122 2: 24068 3:25582 4:10000000 5:24574 6:24234 7:24216 8:10000000
+Clock: 24068
+
+1: 24122 2: 10000000 3:25582 4:10000000 5:24574 6:24234 7:24216 8:24127
+Clock: 24122
+
+1: 24204 2: 24221 3:25582 4:10000000 5:24574 6:24234 7:24216 8:24127
+Clock: 24127
+
+Client exits the system Arrive Time: 23909, Sorting Time: 62, Direct Treasury: 1, Priority: 0, Desk:  , Desk Time:0, Treasury: 1, Treasury Time: 59, Repeat: 0, Waiting: 97
+
+1: 24204 2: 24221 3:25582 4:10000000 5:24574 6:24234 7:24216 8:10000000
+Clock: 24204
+
+1: 24325 2: 24221 3:25582 4:10000000 5:24574 6:24234 7:24216 8:10000000
+Clock: 24216
+
+1: 24325 2: 24221 3:25582 4:10000000 5:24574 6:24234 7:24742 8:24388
+Clock: 24221
+
+1: 24325 2: 24271 3:25582 4:10000000 5:24574 6:24234 7:24742 8:24388
+Clock: 24234
+
+1: 24325 2: 24271 3:25582 4:10000000 5:24574 6:24479 7:24742 8:24388
+Clock: 24271
+
+1: 24325 2: 10000000 3:25582 4:10000000 5:24574 6:24479 7:24742 8:24388
+Clock: 24325
+
+1: 24363 2: 24386 3:25582 4:10000000 5:24574 6:24479 7:24742 8:24388
+Clock: 24363
+
+1: 24451 2: 24386 3:25582 4:10000000 5:24574 6:24479 7:24742 8:24388
+Clock: 24386
+
+1: 24451 2: 24486 3:25582 4:10000000 5:24574 6:24479 7:24742 8:24388
+Clock: 24388
+
+Client exits the system Arrive Time: 20973, Sorting Time: 119, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:877, Treasury: 1, Treasury Time: 172, Repeat: 0, Waiting: 2247
+
+1: 24451 2: 24486 3:25582 4:10000000 5:24574 6:24479 7:24742 8:24504
+Clock: 24451
+
+1: 24458 2: 24486 3:25582 4:10000000 5:24574 6:24479 7:24742 8:24504
+Clock: 24458
+
+1: 24787 2: 24486 3:25582 4:10000000 5:24574 6:24479 7:24742 8:24504
+Clock: 24479
+
+1: 24787 2: 24486 3:25582 4:10000000 5:24574 6:24832 7:24742 8:24504
+Clock: 24486
+
+1: 24787 2: 24544 3:25582 4:10000000 5:24574 6:24832 7:24742 8:24504
+Clock: 24504
+
+Client exits the system Arrive Time: 23373, Sorting Time: 109, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:269, Treasury: 1, Treasury Time: 116, Repeat: 0, Waiting: 637
+
+1: 24787 2: 24544 3:25582 4:10000000 5:24574 6:24832 7:24742 8:24567
+Clock: 24544
+
+1: 24787 2: 24602 3:25582 4:10000000 5:24574 6:24832 7:24742 8:24567
+Clock: 24567
+
+Client exits the system Arrive Time: 24122, Sorting Time: 99, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:245, Treasury: 1, Treasury Time: 63, Repeat: 0, Waiting: 38
+
+1: 24787 2: 24602 3:25582 4:10000000 5:24574 6:24832 7:24742 8:10000000
+Clock: 24574
+
+Client exits the system Arrive Time: 22960, Sorting Time: 26, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:955, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 633
+
+1: 24787 2: 24602 3:25582 4:10000000 5:25665 6:24832 7:24742 8:10000000
+Clock: 24602
+
+1: 24787 2: 10000000 3:25582 4:10000000 5:25665 6:24832 7:24742 8:10000000
+Clock: 24742
+
+Client exits the system Arrive Time: 22314, Sorting Time: 169, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:526, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 1733
+
+1: 24787 2: 10000000 3:25582 4:10000000 5:25665 6:24832 7:25367 8:10000000
+Clock: 24787
+
+1: 25089 2: 24910 3:25582 4:10000000 5:25665 6:24832 7:25367 8:10000000
+Clock: 24832
+
+1: 25089 2: 24910 3:25582 4:10000000 5:25665 6:25568 7:25367 8:24923
+Clock: 24910
+
+1: 25089 2: 10000000 3:25582 4:25681 5:25665 6:25568 7:25367 8:24923
+Clock: 24923
+
+Client exits the system Arrive Time: 24204, Sorting Time: 50, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:353, Treasury: 1, Treasury Time: 91, Repeat: 0, Waiting: 225
+
+1: 25089 2: 10000000 3:25582 4:25681 5:25665 6:25568 7:25367 8:10000000
+Clock: 25089
+
+1: 25103 2: 25138 3:25582 4:25681 5:25665 6:25568 7:25367 8:10000000
+Clock: 25103
+
+1: 25419 2: 25138 3:25582 4:25681 5:25665 6:25568 7:25367 8:10000000
+Clock: 25138
+
+1: 25419 2: 25224 3:25582 4:25681 5:25665 6:25568 7:25367 8:10000000
+Clock: 25224
+
+1: 25419 2: 10000000 3:25582 4:25681 5:25665 6:25568 7:25367 8:10000000
+Clock: 25367
+
+1: 25419 2: 10000000 3:25582 4:25681 5:25665 6:25568 7:25137 8:25428
+Clock: 25137
+
+1: 25419 2: 10000000 3:25582 4:25681 5:25665 6:25568 7:25565 8:25428
+Clock: 25419
+
+1: 25932 2: 25443 3:25582 4:25681 5:25665 6:25568 7:25565 8:25428
+Clock: 25428
+
+Client exits the system Arrive Time: 23733, Sorting Time: 56, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:625, Treasury: 1, Treasury Time: 61, Repeat: 0, Waiting: 953
+
+1: 25932 2: 25443 3:25582 4:25681 5:25665 6:25568 7:25565 8:25535
+Clock: 25443
+
+1: 25932 2: 10000000 3:25582 4:25681 5:25665 6:25568 7:25565 8:25535
+Clock: 25535
+
+1: 25932 2: 10000000 3:25582 4:25681 5:25665 6:25568 7:25565 8:10000000
+Clock: 25565
+
+1: 25932 2: 10000000 3:25582 4:25681 5:25665 6:25568 7:26070 8:25579
+Clock: 25568
+
+1: 25932 2: 10000000 3:25582 4:25681 5:25665 6:26004 7:26070 8:25579
+Clock: 25579
+
+Client exits the system Arrive Time: 25089, Sorting Time: 49, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:428, Treasury: 1, Treasury Time: 14, Repeat: 0, Waiting: -1
+
+1: 25932 2: 10000000 3:25582 4:25681 5:25665 6:26004 7:26070 8:25612
+Clock: 25582
+
+Client exits the system Arrive Time: 23868, Sorting Time: 138, Direct Treasury: 0, Priority: 0, Desk: A, Desk Time:1576, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 25932 2: 10000000 3:10000000 4:25681 5:25665 6:26004 7:26070 8:25612
+Clock: 25612
+
+Client exits the system Arrive Time: 24363, Sorting Time: 100, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:736, Treasury: 1, Treasury Time: 33, Repeat: 0, Waiting: 380
+
+1: 25932 2: 10000000 3:10000000 4:25681 5:25665 6:26004 7:26070 8:10000000
+Clock: 25665
+
+1: 25932 2: 10000000 3:10000000 4:25681 5:25826 6:26004 7:26070 8:25781
+Clock: 25681
+
+Client exits the system Arrive Time: 24787, Sorting Time: 123, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:771, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 25932 2: 10000000 3:10000000 4:10000000 5:25826 6:26004 7:26070 8:25781
+Clock: 25781
+
+Client exits the system Arrive Time: 24325, Sorting Time: 61, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:1091, Treasury: 1, Treasury Time: 116, Repeat: 0, Waiting: 188
+
+1: 25932 2: 10000000 3:10000000 4:10000000 5:25826 6:26004 7:26070 8:10000000
+Clock: 25826
+
+Client exits the system Arrive Time: 25103, Sorting Time: 86, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:161, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 476
+
+1: 25932 2: 10000000 3:10000000 4:10000000 5:26203 6:26004 7:26070 8:10000000
+Clock: 25932
+
+1: 26092 2: 25981 3:10000000 4:10000000 5:26203 6:26004 7:26070 8:10000000
+Clock: 25981
+
+1: 26092 2: 10000000 3:10000000 4:10000000 5:26203 6:26004 7:26070 8:10000000
+Clock: 26004
+
+Client exits the system Arrive Time: 24458, Sorting Time: 58, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:436, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 1052
+
+1: 26092 2: 10000000 3:10000000 4:10000000 5:26203 6:10000000 7:26070 8:10000000
+Clock: 26070
+
+Client exits the system Arrive Time: 25535, Sorting Time: 58, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:505, Treasury: 0, Treasury Time: 107, Repeat: -1, Waiting: 414
+
+1: 26092 2: 10000000 3:10000000 4:10000000 5:26203 6:10000000 7:25419 8:10000000
+Clock: 25419
+
+1: 26092 2: 10000000 3:10000000 4:10000000 5:26203 6:10000000 7:10000000 8:25487
+Clock: 25487
+
+1: 26092 2: 10000000 3:10000000 4:10000000 5:26203 6:10000000 7:10000000 8:10000000
+Clock: 26092
+
+1: 26136 2: 26181 3:10000000 4:10000000 5:26203 6:10000000 7:26190 8:10000000
+Clock: 26136
+
+1: 26543 2: 26181 3:10000000 4:10000000 5:26203 6:10000000 7:26190 8:10000000
+Clock: 26181
+
+1: 26543 2: 26190 3:10000000 4:10000000 5:26203 6:26522 7:26190 8:10000000
+Clock: 26190
+
+Client exits the system Arrive Time: 25487, Sorting Time: 49, Direct Treasury: 0, Priority: 1, Desk: C, Desk Time:98, Treasury: 0, Treasury Time: 68, Repeat: -1, Waiting: 556
+
+1: 26543 2: 10000000 3:26578 4:10000000 5:26203 6:26522 7:10000000 8:10000000
+Clock: 26203
+
+Client exits the system Arrive Time: 25419, Sorting Time: 24, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:377, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 383
+
+1: 26543 2: 10000000 3:26578 4:10000000 5:10000000 6:26522 7:10000000 8:10000000
+Clock: 26522
+
+Client exits the system Arrive Time: 26092, Sorting Time: 89, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:341, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 26543 2: 10000000 3:26578 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 26543
+
+1: 26648 2: 26544 3:26578 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 26544
+
+1: 26648 2: 10000000 3:26578 4:10000000 5:26967 6:10000000 7:10000000 8:10000000
+Clock: 26578
+
+Client exits the system Arrive Time: 26136, Sorting Time: 9, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:388, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 45
+
+1: 26648 2: 10000000 3:10000000 4:10000000 5:26967 6:10000000 7:10000000 8:10000000
+Clock: 26648
+
+1: 27110 2: 26681 3:10000000 4:10000000 5:26967 6:10000000 7:10000000 8:10000000
+Clock: 26681
+
+1: 27110 2: 10000000 3:10000000 4:10000000 5:26967 6:10000000 7:26296 8:10000000
+Clock: 26296
+
+1: 27110 2: 10000000 3:10000000 4:10000000 5:26967 6:10000000 7:10000000 8:26321
+Clock: 26321
+
+1: 27110 2: 10000000 3:10000000 4:10000000 5:26967 6:10000000 7:10000000 8:10000000
+Clock: 26967
+
+Client exits the system Arrive Time: 26543, Sorting Time: 1, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:423, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 27110 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:26972 8:10000000
+Clock: 26972
+
+Client exits the system Arrive Time: 26321, Sorting Time: 33, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:5, Treasury: 0, Treasury Time: 25, Repeat: -1, Waiting: 613
+
+1: 27110 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 27110
+
+1: 27300 2: 27145 3:10000000 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 27145
+
+1: 27300 2: 10000000 3:10000000 4:10000000 5:27456 6:10000000 7:10000000 8:10000000
+Clock: 27300
+
+1: 27381 2: 27312 3:10000000 4:10000000 5:27456 6:10000000 7:10000000 8:10000000
+Clock: 27312
+
+1: 27381 2: 10000000 3:27614 4:10000000 5:27456 6:10000000 7:10000000 8:10000000
+Clock: 27381
+
+1: 27433 2: 27382 3:27614 4:10000000 5:27456 6:10000000 7:10000000 8:10000000
+Clock: 27382
+
+1: 27433 2: 10000000 3:27614 4:10000000 5:27456 6:10000000 7:27362 8:10000000
+Clock: 27362
+
+1: 27433 2: 10000000 3:27614 4:10000000 5:27456 6:10000000 7:10000000 8:27423
+Clock: 27423
+
+1: 27433 2: 10000000 3:27614 4:10000000 5:27456 6:10000000 7:10000000 8:10000000
+Clock: 27433
+
+1: 27461 2: 27562 3:27614 4:10000000 5:27456 6:10000000 7:27445 8:10000000
+Clock: 27445
+
+Client exits the system Arrive Time: 27423, Sorting Time: 1, Direct Treasury: 0, Priority: 0, Desk: C, Desk Time:12, Treasury: 0, Treasury Time: 61, Repeat: -1, Waiting: 9
+
+1: 27461 2: 27562 3:27614 4:10000000 5:27456 6:10000000 7:10000000 8:10000000
+Clock: 27456
+
+1: 27461 2: 27562 3:27614 4:10000000 5:10000000 6:10000000 7:10000000 8:27462
+Clock: 27461
+
+1: 28120 2: 27562 3:27614 4:10000000 5:10000000 6:10000000 7:10000000 8:27462
+Clock: 27462
+
+Client exits the system Arrive Time: 27110, Sorting Time: 35, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:311, Treasury: 1, Treasury Time: 6, Repeat: 0, Waiting: 0
+
+1: 28120 2: 27562 3:27614 4:10000000 5:10000000 6:10000000 7:10000000 8:10000000
+Clock: 27562
+
+1: 28120 2: 27608 3:27614 4:10000000 5:28344 6:10000000 7:10000000 8:10000000
+Clock: 27608
+
+1: 28120 2: 10000000 3:27614 4:10000000 5:28344 6:28472 7:10000000 8:10000000
+Clock: 27614
+
+Client exits the system Arrive Time: 27300, Sorting Time: 12, Direct Treasury: 0, Priority: 1, Desk: A, Desk Time:302, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 28120 2: 10000000 3:10000000 4:10000000 5:28344 6:28472 7:10000000 8:10000000
+Clock: 28120
+
+1: 28514 2: 28206 3:10000000 4:10000000 5:28344 6:28472 7:10000000 8:10000000
+Clock: 28206
+
+1: 28514 2: 10000000 3:10000000 4:10000000 5:28344 6:28472 7:28991 8:10000000
+Clock: 28344
+
+Client exits the system Arrive Time: 27433, Sorting Time: 129, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:782, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 0
+
+1: 28514 2: 10000000 3:10000000 4:10000000 5:10000000 6:28472 7:28991 8:10000000
+Clock: 28472
+
+Client exits the system Arrive Time: 27461, Sorting Time: 46, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:864, Treasury: 0, Treasury Time: 0, Repeat: 0, Waiting: 101
+
+1: 28514 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:28991 8:10000000
+Clock: 28514
+
+1: 10000000 2: 28584 3:10000000 4:10000000 5:10000000 6:10000000 7:28991 8:10000000
+Clock: 28584
+
+1: 10000000 2: 10000000 3:10000000 4:10000000 5:28420 6:10000000 7:28991 8:10000000
+Clock: 28420
+
+1: 10000000 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:28991 8:28432
+Clock: 28432
+
+1: 10000000 2: 10000000 3:10000000 4:10000000 5:10000000 6:10000000 7:28991 8:10000000
+Clock: 28991
+
+********************************INICIO SIMULAÇÃO********************************
+
+Nº de clientes gerados: 139
+Nº de clientes atendidos (saiem do sistema): 137 -> 98.56115% dos clientes gerados.
+--------Balcões--------
+Nº de clientes gerados para o Balcão A: 32 -> 23.021584%.
+Nº de clientes gerados para o Balcão B: 62 -> 44.604317%.
+Nº de clientes gerados para o Balcão C: 28 -> 20.143885%.
+Nº de clientes que vão diretos à Tesouraria: 17 -> 12.230216%.
+
+Nº clientes atendidos no Balcão A1: 19 -> 59.375% dos clientes A -> 13.868613% dos clientes totais atendidos -> 13.6690645% dos clientes gerados.
+Nº clientes atendidos no Balcão A2: 13 -> 40.625% dos clientes A -> 9.489051% dos clientes totais atendidos -> 9.352518% dos clientes gerados.
+Nº clientes atendidos no Balcão B1: 35 -> 56.451614% dos clientes B -> 25.547445% dos clientes totais atendidos -> 25.179857% dos clientes gerados.
+Nº clientes atendidos no Balcão B2: 26 -> 41.935482% dos clientes B -> 18.978102% dos clientes totais atendidos -> 18.705036% dos clientes gerados.
+Nº clientes atendidos no Balcão C: 27 -> 96.42857% dos clientes C -> 19.70803% dos clientes totais atendidos -> 19.424461% dos clientes gerados.
+Nº clientes atendidos na Tesouraria: 64 -> 100.0% dos clientes que passam na Tesouraria -> 46.71533% dos clientes totais atendidos -> 46.043167% dos clientes gerados.
+
+--------Quadrantes--------
+Nº total de clientes atendidos Q1 (9h-11h): 14 -> 10.218978% de clientes atendidos.
+Nº total de clientes atendidos Q2 (11h-13h): 30 -> 21.89781% de clientes atendidos.
+Nº total de clientes atendidos Q3 (13h-15h): 56 -> 40.87591% de clientes atendidos.
+Nº total de clientes atendidos Q4 (15h-17h): 37 -> 27.0073% de clientes atendidos.
+Quadrante 1
+Nº clientes antendidos A: 4 -> 28.57143% dos clientes atendidos neste quadrante.
+Nº clientes antendidos B: 6 -> 42.857143% dos clientes atendidos neste quadrante.
+Nº clientes antendidos C: 3 -> 21.428572% dos clientes atendidos neste quadrante.
+Nº clientes atendidos que vão diretos para a Tesouraria: 1 -> 7.1428576%
+Quadrante 2
+Nº clientes antendidos A: 7 -> 23.333334% dos clientes atendidos neste quadrante.
+Nº clientes antendidos B: 13 -> 43.333332% dos clientes atendidos neste quadrante.
+Nº clientes antendidos C: 5 -> 16.666668% dos clientes atendidos neste quadrante.
+Nº clientes atendidos que vão diretos para a Tesouraria: 5 -> 16.666668%
+Quadrante 3
+Nº clientes antendidos A: 13 -> 23.214285% dos clientes atendidos neste quadrante.
+Nº clientes antendidos B: 23 -> 41.07143% dos clientes atendidos neste quadrante.
+Nº clientes antendidos C: 11 -> 19.642857% dos clientes atendidos neste quadrante.
+Nº clientes atendidos que vão diretos para a Tesouraria: 9 -> 16.071428%
+Quadrante 4
+Nº clientes antendidos A: 8 -> 21.621622% dos clientes atendidos neste quadrante.
+Nº clientes antendidos B: 19 -> 51.35135% dos clientes atendidos neste quadrante.
+Nº clientes antendidos C: 8 -> 21.621622% dos clientes atendidos neste quadrante.
+Nº clientes atendidos que vão diretos para a Tesouraria: 2 -> 5.4054055% dos clientes atendidos neste quadrante.
+
+--------Variáveis Estatísticas--------
+TTE: 31900 -> TTE Min: -42 TTE Max: 2247
+TTE do Q1: 1902
+TTE do Q2: 1738
+TTE do Q3: 14851
+TTE do Q4: 13409
+TME: 819.0
+TME do Q1: 135.85715
+TME do Q2: 57.933334
+TME do Q3: 265.19644
+TME do Q4: 362.4054
+
+--------Filas de Espera--------
+Triagem: []
+Prioritários Balcões: []
+Repetentes Balcões: [Arrive Time: 28432, Sorting Time: 70, Direct Treasury: 0, Priority: 0, Desk: B, Desk Time:473, Treasury: 0, Treasury Time: 12, Repeat: -1, Waiting: 0
+]
+Gerais Balcões: []
+Prioritários Tesouraria: []
+Repetentes Tesouraria: []
+Gerais Tesouraria: []
+TME da fila da Triagem: 70.76471
+TME da fila Prioritários Balcões: 64.333336
+TME da fila Repetentes Balcões: 353.125
+TME da fila Gerais Balcões: 591.525
+TME da fila Prioritários Tesouraria: 85.818184
+TME da fila Repetentes Tesouraria: 224.375
+TME da flia Gerais Tesouraria: 81.63158
+
+********************************FIM SIMULAÇÃO********************************
