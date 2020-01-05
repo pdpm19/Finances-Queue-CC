@@ -28,8 +28,8 @@ A small Java project to simulate queues for Scientific Computing
 
 ### Statical Variables
 - TTE (_Tempo Total de Espera_)
-- QT (_Quantidade de Clientes_)
 - TME (_Tempo Médio de Espera_)
+- (...)
 
 ## TODO:
 
@@ -39,6 +39,6 @@ A small Java project to simulate queues for Scientific Computing
 - [x] Making of As
 - [x] Making of Bs
 - [x] Making of C
-- [x] Fix the bad management of clients in queue_2
 - [x] Making of Treasury
-- [ ] Get the Statical Variable
+- [x] Get the Statical Variable
+- [ ] Make it more functional (reuse code, etc)
